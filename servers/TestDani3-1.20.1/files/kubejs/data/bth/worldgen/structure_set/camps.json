@@ -1,0 +1,50 @@
+{
+  "structures": [
+    {
+      "structure": "idas:lumber_camp/lumber_camp_acacia",
+      "weight": 10
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_birch",
+      "weight": 10
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_dark_oak",
+      "weight": 10
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_jungle",
+      "weight": 10
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_oak",
+      "weight": 10
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_spruce",
+      "weight": 10
+    },
+    {
+      "structure": "idas:washing_camp",
+      "weight": 10
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_red",
+      "weight": 10
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "salt": 71926172,
+    "spacing": 80,
+    "separation": 40,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "#bth:camps_avoid"
+    }
+  }
+}

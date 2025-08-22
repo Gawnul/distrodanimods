@@ -1,0 +1,20 @@
+{
+  "structures": [
+  ],
+  "placement": {
+    "salt": 10587309,
+    "spacing": 200,
+    "separation": 100,
+    "type": "valhelsia_structures:valhelsia_random_spread",
+    "exclusion_zones": [
+    {
+      "chunk_count": 16,
+      "other_set": "ctov:villages"
+    },
+    {
+      "chunk_count": 16,
+      "other_set": "minecraft:villages"
+    }
+    ]
+  }
+}

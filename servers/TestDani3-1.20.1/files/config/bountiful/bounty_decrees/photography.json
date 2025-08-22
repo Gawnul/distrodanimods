@@ -1,0 +1,9 @@
+{
+  "name": "Photography",
+  "objectives": [
+    "photography_objs"
+  ],
+  "rewards": [
+    "bth_rews"
+  ]
+}

@@ -1,0 +1,1130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "travelling"
+	group: ""
+	icon: "minecraft:saddle"
+	id: "1DDDAA6ED02DF8AB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "479F5EE637931DF5"
+			subtitle: "Slower, but with two seats. Quite easy to maneuver, with acceptable speed thanks to the engine in the back."
+			tasks: [{
+				id: "5223FA949EC2745C"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["479F5EE637931DF5"]
+			id: "55FAE20E07CDC9C9"
+			subtitle: "An advanced version of the airship, it can carry a large number of items."
+			tasks: [{
+				id: "783C5BB6D0A35A5F"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["55FAE20E07CDC9C9"]
+			id: "02674AD6B512CA57"
+			subtitle: "Sturdy, has 3 seats, and a bunch of weapon options"
+			tasks: [{
+				id: "1BB3FF3DB83BA907"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			id: "3A643C9F794E6B0C"
+			subtitle: "Fast, one seat, medium difficulty. Make sure you have somewhere flat to take off and land on!"
+			tasks: [{
+				id: "28CC36B4CF226782"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "Biplane"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			id: "51AEDA51AC0D8F9B"
+			subtitle: "Human-powered primitive dual seater. Trusty and easy to maneuver, yet not the fastest. Needs a good initial push to get the rotor spinning."
+			tasks: [{
+				id: "07EA7B8F8DAF0E36"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			id: "66DA4E60A9F14084"
+			subtitle: "A masterwork of engineering! Four propellers strapped on a bunch of bamboos. It's quite handy for building."
+			tasks: [{
+				id: "165B3FA6A3CC1CDF"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			id: "2397C81EE3B470C0"
+			shape: "rsquare"
+			subtitle: "A mysterious material from the Aether that defies gravity."
+			tasks: [{
+				id: "7C7C85F71CA27E63"
+				item: "aether:enchanted_gravitite"
+				type: "item"
+			}]
+			title: "The Source of Flight"
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			description: ["Rumors say it flies faster than other dragons."]
+			id: "69428975C73FD77D"
+			subtitle: "Place the egg in the Aether dimension."
+			tasks: [{
+				id: "69EE1492F3067FC1"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:aether"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			id: "092E550A6E2D1783"
+			subtitle: "Defeat the Ender Dragon to obtain its egg. Convert other breeds of egg to End eggs by surrounding them with Dragon's Breath."
+			tasks: [{
+				id: "2C53D1AF3E471066"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:end"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			id: "5299590EAB306EE7"
+			subtitle: "Place the egg adjacent to lava or magma blocks."
+			tasks: [{
+				id: "0E04E2C61113F416"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:fire"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			id: "6967D1E14FFDC359"
+			subtitle: "Place the egg in a forest biome, or adjacent to leaf blocks."
+			tasks: [{
+				id: "45FAB88602FC721F"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:forest"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			id: "54C54AD77F75E2CA"
+			subtitle: "Place the egg below y-level 0 and in complete darkness."
+			tasks: [{
+				id: "3702F64EDCF84D24"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:ghost"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			id: "51D920C52C7DC153"
+			subtitle: "Place the egg in a cold biome, or adjacent to snow or ice blocks."
+			tasks: [{
+				id: "6BB92A95B27B1457"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:ice"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			id: "2F60A94264EE2797"
+			subtitle: "Place the egg in the Nether, or adjacent to black stone or soul soil blocks."
+			tasks: [{
+				id: "0193FFF7434F02A3"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:nether"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			description: ["Can swim."]
+			id: "03EB66929B4A2B3F"
+			subtitle: "Place the egg adjacent to water or coral blocks."
+			tasks: [{
+				id: "6B56A0037049A92A"
+				item: {
+					Count: 1
+					id: "dragonmounts:dragon_egg"
+					tag: {
+						BlockEntityTag: {
+							Breed: "dragonmounts:water"
+							id: "dragonmounts:dragon_egg"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			description: [
+				"Once the &aDragon Egg&r is placed, it takes approximately one in-game day for it to hatch."
+				"During this time, ensure the &aDragon Egg&r is safe from any disturbances."
+				""
+				"After hatching, it is crucial to tame the &eDragon&r by feeding it &aFish&r."
+				"Each &aFish&r fed to the &eDragon&r has a &l20% chance&r to tame it."
+				"&eTamed Dragons&r will obey commands and defend you against hostile mobs."
+				""
+				"To ride a grown &eDragon&r, use a &aSaddle&r on it."
+				""
+				"Dragons, like other tamed mobs, can wear &benchanted collars&r from &9Domestication Innovation&r to gain special abilities and properties."
+			]
+			icon: "minecraft:cod"
+			id: "10C6EAD321E84667"
+			shape: "rsquare"
+			subtitle: "Don't forget to tame your dragon."
+			tasks: [{
+				id: "062BE2B3CAFEF001"
+				type: "checkmark"
+			}]
+			title: "Dragon Taming 101"
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"There are two ways to get it - you can craft it or build it yourself from blocks (details on page 3)."
+				""
+				"                                      &6General information:&r"
+				""
+				"Movement - &6W A S D&r"
+				"Dive - &6Left Ctrl&r"
+				"Rise - &6Space&r"
+				"Light - &6G&r (doesn't work with shaders)"
+				""
+				"If there are any aggressive &eDeep Ones&r chasing or &eHullbreakers&r that are targeting a player inside a &aSubmarine&r, the Submarine's sonar and side buttons will begin to flash while constantly emitting loud pinging noises in attempts to alert them of the threat nearby."
+				""
+				"{@pagebreak}"
+				"                                              &6Care:&r"
+				""
+				"Over time, your &aSubmarine&r will begin to oxidize."
+				"This only affects how the &aSubmarine&r looks."
+				"To reverse the stages of oxidation, interact with an oxidized &aSubmarine&r while holding an &aAxe&r."
+				"&aHoneycomb&r can also be applied to a &aSubmarine&r similarly to prevent oxidation from progressing."
+				"Lightning bolts that strike near an unwaxed &aSubmarine&r will completely reset its level of oxidation"
+				""
+				"&aSubmarines&r will begin to show cracks depending on how much damage they've taken."
+				"Fortunately, one can repair a damaged &aSubmarine&r with the use of &aCopper Ingots&r. Interact with a &aSubmarine&r while holding a &aCopper Ingot&r to repair it by up to 10 damage per ingot"
+				""
+				"                                            &cWARNING:&r"
+				"If the &aSubmarine&r completely breaks, only a small amount of copper be left."
+				"{@pagebreak}"
+				"                    &6Building:&r"
+				""
+				"You can craft a &aSubmarine&r in a crafting table or by building a multi-block structure."
+				""
+				"For the multiblock structure, you will need &a20 of any type of Copper Block&r (including cut copper), &a6 Depth Glass&r, and an &aEnigmatic Engine &r- which can only be obtained as a drop from the &eHullbreaker&r.\""
+				""
+				"Place down the &aEnigmatic Engine&r and surround it with a 3x3x3 Copper cube. Then, break a 3x2 hole in the copper cube exposing the &aEnigmatic Engine&r. Finally, fill this 3x2 gap with &aDepth Glass Blocks&r and it will transform into the &aSubmarine&r."
+			]
+			id: "503478F788C7407E"
+			min_width: 400
+			subtitle: "Underwater travel."
+			tasks: [{
+				id: "5DC59496BA79096E"
+				item: "alexscaves:submarine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"          &6Works for all ship types&r"
+				""
+				"Press &6R&r to open/close the ship's sail."
+				"Or Press &6W&r to increase and &6S&r to decrease the Sail."
+				""
+				"To dismount a entity from the ship, &6Right-Click&r the entity."
+				"To open the Inventory outside of the ship, use &6Shift&r + &6Right-Click&r on the ship."
+				""
+				"You can customize sails by coloring them with dye items."
+				"You can name your ship with a name-tag."
+				"{@pagebreak}"
+				"You can repair your ship with &aIron Nuggets&r and &aPlanks&r. Simply &6Right-Click&r the ship with the &aIron Nuggets&r in your hand, you need to have a good supply of &aPlanks&r in your inventory."
+				""
+				"Leashing allows players to tether ships. Leashed ships cannot be directly controlled, and only ships without a player on the controller seat can be leashed."
+			]
+			icon: "smallships:oak_cog"
+			id: "50DDB3487B02E281"
+			subtitle: "An excellent maneuverable boat for travel."
+			tasks: [
+				{
+					id: "3C69F2B8B700FCD3"
+					item: "smallships:oak_cog"
+					type: "item"
+				}
+				{
+					id: "67FC98BF5D91A5DA"
+					item: "smallships:spruce_cog"
+					type: "item"
+				}
+				{
+					id: "326AA4850C2EC0FD"
+					item: "smallships:birch_cog"
+					type: "item"
+				}
+				{
+					id: "28FD42E8061B377B"
+					item: "smallships:jungle_cog"
+					type: "item"
+				}
+				{
+					id: "698408EBEEAA7D06"
+					item: "smallships:acacia_cog"
+					type: "item"
+				}
+				{
+					id: "3B005F8B8F2E080C"
+					item: "smallships:cherry_cog"
+					type: "item"
+				}
+				{
+					id: "09EECD3C9FEC4CD2"
+					item: "smallships:dark_oak_cog"
+					type: "item"
+				}
+				{
+					id: "0FF7B283B23E1A12"
+					item: "smallships:mangrove_cog"
+					type: "item"
+				}
+				{
+					id: "62FF20803196074F"
+					item: "smallships:bamboo_cog"
+					type: "item"
+				}
+			]
+			title: "Cog"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["50DDB3487B02E281"]
+			icon: "smallships:oak_brigg"
+			id: "324603BC9B286351"
+			subtitle: "Large, strong and roomy. The best choice for transporting large quantities of goods."
+			tasks: [
+				{
+					id: "4F441602537CAFDD"
+					item: "smallships:oak_brigg"
+					type: "item"
+				}
+				{
+					id: "6D22583A58EB6066"
+					item: "smallships:spruce_brigg"
+					type: "item"
+				}
+				{
+					id: "782028C8DA734598"
+					item: "smallships:birch_brigg"
+					type: "item"
+				}
+				{
+					id: "3D8C5EB737BBF966"
+					item: "smallships:jungle_brigg"
+					type: "item"
+				}
+				{
+					id: "6B1B76C7B6952981"
+					item: "smallships:acacia_brigg"
+					type: "item"
+				}
+				{
+					id: "1A1AB5CAC6EC9FE3"
+					item: "smallships:cherry_brigg"
+					type: "item"
+				}
+				{
+					id: "1F061700C7ECB57D"
+					item: "smallships:dark_oak_brigg"
+					type: "item"
+				}
+				{
+					id: "329533E26E067661"
+					item: "smallships:mangrove_brigg"
+					type: "item"
+				}
+				{
+					id: "64C036CA042654BC"
+					item: "smallships:bamboo_brigg"
+					type: "item"
+				}
+			]
+			title: "Brigg"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50DDB3487B02E281"]
+			icon: "smallships:oak_galley"
+			id: "38C1F6F879582507"
+			subtitle: "Incredibly fast boat, will take you to any end of the world in the blink of an eye."
+			tasks: [
+				{
+					id: "17A7601011B69AD4"
+					item: "smallships:oak_galley"
+					type: "item"
+				}
+				{
+					id: "51B03D9ED92C1C7B"
+					item: "smallships:spruce_galley"
+					type: "item"
+				}
+				{
+					id: "614B52526B101664"
+					item: "smallships:birch_galley"
+					type: "item"
+				}
+				{
+					id: "2BE043FE9F335D4E"
+					item: "smallships:jungle_galley"
+					type: "item"
+				}
+				{
+					id: "2C940F838AE33003"
+					item: "smallships:acacia_galley"
+					type: "item"
+				}
+				{
+					id: "19095B6F047A3C8F"
+					item: "smallships:cherry_galley"
+					type: "item"
+				}
+				{
+					id: "4D3FE7F93F7453E3"
+					item: "smallships:dark_oak_galley"
+					type: "item"
+				}
+				{
+					id: "3AC17ED8F668EB19"
+					item: "smallships:mangrove_galley"
+					type: "item"
+				}
+				{
+					id: "0703A3C08E7778AE"
+					item: "smallships:bamboo_galley"
+					type: "item"
+				}
+			]
+			title: "Galley"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50DDB3487B02E281"]
+			description: [
+				"It is also capable of transporting a sufficient amount of cargo."
+				""
+				"&aShields&r, also with banner patterns, can be attached to grant additional defense."
+				""
+				"With its icebreaker ability, it proves to be a promising vessel in cold and icy oceans."
+			]
+			icon: "smallships:oak_drakkar"
+			id: "2B36B82E8FE1C7BB"
+			subtitle: "The Drakkar is specifically designed for cold water environments, capable of breaking ice in its path."
+			tasks: [
+				{
+					id: "4403C7063095B9A0"
+					item: "smallships:oak_drakkar"
+					type: "item"
+				}
+				{
+					id: "3D9955C9745C4CCC"
+					item: "smallships:spruce_drakkar"
+					type: "item"
+				}
+				{
+					id: "506403F6DD5CCCDC"
+					item: "smallships:birch_drakkar"
+					type: "item"
+				}
+				{
+					id: "0D7B53B31F182048"
+					item: "smallships:jungle_drakkar"
+					type: "item"
+				}
+				{
+					id: "55C699CE44A3C43B"
+					item: "smallships:acacia_drakkar"
+					type: "item"
+				}
+				{
+					id: "6B8A410250A212B3"
+					item: "smallships:cherry_drakkar"
+					type: "item"
+				}
+				{
+					id: "780E29F9AB6936DB"
+					item: "smallships:dark_oak_drakkar"
+					type: "item"
+				}
+				{
+					id: "7B3FED61E910470A"
+					item: "smallships:mangrove_drakkar"
+					type: "item"
+				}
+				{
+					id: "4485B13CD2C0AEB1"
+					item: "smallships:bamboo_drakkar"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Carry along your &eanimals&r, &eplayers&r and &eNPC&r companions with the two seats on this &aCart&r!"
+				""
+				"Press &6R&r for attach/detach &aCart&r."
+				""
+				"You can take a &aCart&r and hitch it even when you're on horseback."
+			]
+			id: "3E4636B0982D3D78"
+			subtitle: "Be sure to take your favorite cow with you!"
+			tasks: [{
+				id: "2225BC2101A77B75"
+				item: "astikorcarts:animal_cart"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Up to a double chests worth!"
+				"One seat on the back."
+				"&6Shift&r + &6Right-Click&r to access the inventory!"
+				""
+				"Press &6R&r for attach/detach &aCart&r."
+				""
+				"You can take a &aCart&r and hitch it even when you're on horseback."
+			]
+			id: "19900187E8FF8899"
+			subtitle: "Bring your storage with you on your journey!"
+			tasks: [{
+				id: "0B566D0B5C5CA9FF"
+				item: "astikorcarts:supply_cart"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			icon: "galosphere:sterling_horse_armor"
+			id: "41883D7A4D016FE6"
+			shape: "rsquare"
+			subtitle: "Horses can swim, and be ridden bareback."
+			tasks: [{
+				id: "3633DC1B27D66348"
+				type: "checkmark"
+			}]
+			title: "Better Horses"
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Paragliders can be crafted or found in &9Ancient Towers&r located on mountains. "
+				""
+				"They can be dyed to match your personal style. You can ride ascending wind to gain height! Look out for rising particles while holding the &aParaglider&r. Works with &6Fire&r and &6Campfire&r. Don't try with &4Lava&r. It doesn't work. I warned you."
+			]
+			id: "6E76E2614585E981"
+			subtitle: "Paragliding!"
+			tasks: [{
+				id: "7CA5F618B70D6EE2"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3A643C9F794E6B0C"]
+			id: "5C9B6A9DB8F72845"
+			subtitle: "Powerful biplane with two seats."
+			tasks: [{
+				id: "2FD95A814FF75B6A"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3A643C9F794E6B0C"]
+			id: "5ED3C714622B8FB6"
+			subtitle: "Cheaper alternative to the Scarlet Biplane. Two seats, but not as powerful."
+			tasks: [{
+				id: "46B58D998244C0CD"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"To equip a &aBackpack&r, put in a back slot or keep it in your inventory."
+				""
+				"The &aBackpack&r can be opened using the &6B&r key."
+			]
+			id: "080AA50EB030E608"
+			subtitle: "Backpacks will help you on long journeys."
+			tasks: [{
+				id: "34183187D1C1BBC8"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4E7155A51FDBEA52"
+				"3D498D90313D9C5E"
+				"2BF3CC73E467999F"
+				"04CEF776DC41C8A7"
+				"7ED342D083C40641"
+				"2A291BC419B86C7E"
+				"18A5B36C235A6304"
+				"09B96D2E745CA0F1"
+				"0EEAC7231795131F"
+				"203D6061C6FAF298"
+				"619075120B45FE5F"
+				"3032F8EE08F7BDEC"
+				"025BC45147EEFEC2"
+				"44EDB755EEED4051"
+				"0F27998656531188"
+				"6C143D7B08238AC6"
+			]
+			description: [
+				"There are 16 unique eyes, 12 are needed to open the End portal. End portals can be found in underground strongholds and in the &9Lost Castle&r, a rare structure found on the overworld surface."
+				""
+				"The various eyes required to open the portal can be found around the world. In &6Beyond the Horizon&r they are a bit more accessible than what you may be used to. See each eye for a hint of its location."
+				""
+				"Once you go through the portal you will find yourself in the &eOuter End Islands&r. Here you can take your time to explore, take on new dungeons and End Cities. When you're ready, travel to the &5Center End Island&r and take on the dragon to free the End."
+			]
+			icon_scale: 0.9d
+			id: "43F459A83C683494"
+			min_required_dependencies: 12
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "IMPORTANT INFO! Click to read more."
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "20E01A30E937B145"
+				observe_type: 0
+				timer: 0L
+				title: "Activate portal to the End"
+				to_observe: "minecraft:end_portal"
+				type: "observation"
+			}]
+			title: "Go to the End"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			id: "4E7155A51FDBEA52"
+			shape: "diamond"
+			subtitle: "Pirates say it gave sight to the legendary Black Pearl and now it's guarded by the legendary Captain Cornelia. Rumors say pirates also made it to the ancient cities, bringing the eye there."
+			tasks: [{
+				id: "11C002B4B7A16134"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			id: "3D498D90313D9C5E"
+			shape: "diamond"
+			subtitle: "One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world. Can be hidden in lost igloos and is said to enhance the powers of the Cryomancer."
+			tasks: [{
+				id: "5DE2EAA59D7ACDA8"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			id: "2BF3CC73E467999F"
+			shape: "diamond"
+			subtitle: "The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owners. Pillagers are also very interested in this particular eye."
+			tasks: [{
+				id: "79A12A92A5A29567"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			id: "0EEAC7231795131F"
+			shape: "diamond"
+			subtitle: "It is told that it was forged by the first blacksmiths of time. Crack open just enough geodes or search through mineshafts and you might find it."
+			tasks: [{
+				id: "0FF085183E8F1B96"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			id: "619075120B45FE5F"
+			shape: "diamond"
+			subtitle: "It was lost by a minion in the battle between the Aether and the Nether. A good place to look for it is in the battleground remains found in the overworld or for the brave, the Nether Fortress."
+			tasks: [{
+				id: "69362ECA1F608112"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			id: "3032F8EE08F7BDEC"
+			shape: "diamond"
+			subtitle: "Legends say this eye once belonged to one of the great Sandworms. The Pharao, being a great hunter of sandworms, is now likely to have it."
+			tasks: [{
+				id: "0494DACB1DA69D28"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			id: "025BC45147EEFEC2"
+			shape: "diamond"
+			subtitle: "This eye is believed to have given our ancestors, who built the magnificent Jungle Temples, the knowledge of redstone."
+			tasks: [{
+				id: "7136F783C9291E9D"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "7ED342D083C40641"
+			shape: "diamond"
+			subtitle: "A powerful yet destructive artifact; the piglins of the Bastions and the Forbidden Castle swore to protect it at the cost of their lives."
+			tasks: [{
+				id: "571C8C47C0C3CF20"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			id: "2A291BC419B86C7E"
+			shape: "diamond"
+			subtitle: "A holy talisman said to protect its owner from bad luck. Can be purchased from a master level cleric villager. It is said that priests are fond of this eye as well."
+			tasks: [{
+				id: "204F3B477568E891"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "09B96D2E745CA0F1"
+			shape: "diamond"
+			subtitle: "It has seen many warriors drown into the depths of the sea. Are you strong enough to take on the Elder Guardian?"
+			tasks: [{
+				id: "53E0E6F5D8D4EA4F"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "203D6061C6FAF298"
+			shape: "diamond"
+			subtitle: "Without this eye, the Archevoker in their Evoker Fort has no power."
+			tasks: [{
+				id: "59D09144E7E08001"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			id: "0F27998656531188"
+			shape: "diamond"
+			subtitle: "This pupil is believed to have seen the ancient brewing recipes that were lost in time. The apothecaries and witches of the swamps might have knowledge of it."
+			tasks: [{
+				id: "77EE5CC16314B5F3"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "6C143D7B08238AC6"
+			shape: "diamond"
+			subtitle: "Has witnessed destruction. Maybe it also witnessed your stuff disappear."
+			tasks: [{
+				id: "13E20B6902A9A661"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			id: "44EDB755EEED4051"
+			shape: "diamond"
+			subtitle: "Remembrance of the past lives of those who live in death. One of the few craftable eyes that is also said to be held by the Dead King in the Catabombs. The Wayward Compass leads the way."
+			tasks: [{
+				id: "12AF0F878AEB74C2"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			id: "18A5B36C235A6304"
+			shape: "diamond"
+			subtitle: "Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying. A craftable eye for those who dare to explore the depths of the ocean."
+			tasks: [{
+				id: "2FFAE2B8040CCF50"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			id: "04CEF776DC41C8A7"
+			shape: "diamond"
+			subtitle: "Has a small chance of appearing when enchanting items."
+			tasks: [{
+				id: "00F474FD2D7FDBDF"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			id: "5D584E11E7E65D4B"
+			subtitle: "Saddled horses don't wander."
+			tasks: [{
+				id: "0351CABFDE847A31"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Biome maps can be found in structures and purchased from the cartographer."
+				""
+				"&9Ancient Towers&r located on mountains are guaranteed to contain one biome map for one of the more rare and important biomes to aid and reward explorers."
+			]
+			icon: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:snowy_plains"
+					targetBiomeColor: 8381695
+					targetBiomeUnderground: 0b
+				}
+			}
+			id: "03E6A95265DFB5C3"
+			subtitle: "More rewarding than a nature compass."
+			tasks: [{
+				id: "65BBE9B964960B6F"
+				title: "Biome maps"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			description: [
+				"The preferred way of finding structures is using maps. Some methods of obtaining maps are"
+				""
+				"&9Fishing&r"
+				"Slightly more rare than treasure loot, but for the patient player finding many maps by fishing should be easy."
+				""
+				"&6Exploring&r"
+				"Many structures contain maps. Often the map destination is related to the structure or biome in which it is found."
+				""
+				"&2Trading&r"
+				"The cartographer sells maps to many different structures."
+				""
+				"Not all maps get be obtained from a single method so a combination of all methods is recommended."
+				""
+				"A map in the form of a cartographer's quill has to be activated in the same dimension as the structure it searches for. For example to locate a nether structure, activate the map while in the nether."
+			]
+			icon: "supplementaries:cartographers_quill"
+			id: "0F989BD0FF381412"
+			subtitle: "More rewarding than a structure compass."
+			tasks: [{
+				id: "3F3DC53599182702"
+				title: "Structure maps"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			description: ["See the chapter &6Trails to Riches&r for map trails that will guide you through a series of structures, with increasing reward and risk."]
+			icon: "minecraft:diamond_block"
+			id: "7A8D1DF8EC63010F"
+			subtitle: "A map trail to guide you."
+			tasks: [{
+				id: "6019E4D6014F234B"
+				title: "Trails to Riches"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			description: [
+				"&2Nomadic Tents&r are portable bases that come in various types and sizes. FOMO is a thing of the past. Now you can explore the world to your heart's content while carrying your home with you on your travels."
+				""
+				"Start by crafting a tiny version of your choice of tent, for example &cTiny Tepee&r."
+				""
+				"Then &9hold right click&r with it in your hand while aiming &2at a ground block&r. Requires about a 7x7 flat area to assemble the tent on."
+				""
+				"When the door and framing appears, use a mallet on the framing to assemble the tent. The &7Tent Mallet&r requires each block to be assembled individually while the &6Gold Tent Mallet&r assembles the tent with one click."
+				""
+				"Once assembled you can enter the tent by right clicking on the door with an empty hand."
+				""
+				"Right click with the Tent Mallet on the door to &4disassemble&r your tent."
+				""
+				"Tents can be upgraded to be larger on the inside. There are also &blayer upgrades&r that lets you use the ground under the tent for some extra space."
+			]
+			icon: {
+				Count: 1
+				id: "nomadictents:tiny_tepee"
+				tag: { }
+			}
+			id: "35C6350F9C9F8875"
+			subtitle: "A portable base."
+			tasks: [{
+				id: "4F7DF2729A6B86B6"
+				title: "Nomadic Tents"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+	]
+	title: "Travel and Exploration"
+}

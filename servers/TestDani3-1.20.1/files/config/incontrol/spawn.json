@@ -1,0 +1,119 @@
+[
+  {
+    "biome": "terralith:haze_mountain",
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:blue_jay",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:catfish",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:crimson_mosquito",
+    "mincount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:cockroach",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:flying_fish",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:terrapin",
+    "mincount": {
+      "amount": 3,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "eidolon:wraith",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:bat",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cod",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:salmon",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:dolphin",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "upgrade_aquatic:thrasher",
+    "mincount": {
+      "amount": 3,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "quark:stoneling",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "quark:toretoise",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "structures": [
+    {
+      "structure": "ae2:meteorite",
+      "weight": 10
+    },
+    {
+      "structure": "idas:ars_nouveau/archmages_tower",
+      "weight": 10
+    },
+    {
+      "structure": "idas:bazaar",
+      "weight": 10
+    },
+    {
+      "structure": "idas:desert_pyramid",
+      "weight": 10
+    },
+    {
+      "structure": "idas:dig_site/dig_site_desert",
+      "weight": 10
+    },
+    {
+      "structure": "idas:labyrinth",
+      "weight": 10
+    },
+    {
+      "structure": "idas:pillager_fortress",
+      "weight": 10
+    },
+    {
+      "structure": "idas:ruins_of_the_deep",
+      "weight": 10
+    },
+    {
+      "structure": "idas:tinkers_citadel",
+      "weight": 10
+    },
+    {
+      "structure": "idas:tinkers_workshop",
+      "weight": 10
+    },
+    {
+      "structure": "idas:train_ruins",
+      "weight": 10
+    },
+    {
+      "structure": "idas:tree_of_wisdom",
+      "weight": 10
+    },
+    {
+      "structure": "idas:treetop_tavern",
+      "weight": 10
+    },
+    {
+      "structure": "idas:winter_wagon",
+      "weight": 10
+    },
+    {
+      "structure": "minecolonies:amazon_camp",
+      "weight": 5
+    },
+    {
+      "structure": "minecolonies:barbarian_camp",
+      "weight": 5
+    },
+    {
+      "structure": "minecolonies:desert_camp",
+      "weight": 5
+    },
+    {
+      "structure": "minecolonies:ship",
+      "weight": 5
+    }
+  ],
+  "placement": {
+    "salt": 81624112,
+    "spacing": 80,
+    "separation": 40,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "#bth:rare_avoid"
+    }
+  }
+}

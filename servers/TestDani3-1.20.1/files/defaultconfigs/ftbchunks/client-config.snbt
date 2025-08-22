@@ -1,0 +1,113 @@
+# Default config file that will be copied to local\ftbchunks\client-config.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{
+	minimap: {
+		# Blurs minimap
+		# Default: "auto"
+		# Valid values: "auto", "on", "off"
+		blur_mode: "auto"
+		
+		# Adds NWSE compass inside minimap
+		# Default: true
+		compass: true
+		
+		# Enable minimap
+		# Default: true
+		enabled: false
+		
+		# Show entities on minimap
+		# Default: true
+		entities: true
+		
+		# Show entity heads on minimap
+		# Default: true
+		entity_heads: true
+		
+		# Minimap font scaling (values not a multiple of 0.5 may look bad)
+		# Default: 0.5
+		# Range: 0.1 ~ 5.0
+		font_scale: 0.5d
+		
+		# Info hidden under minimap
+		# Default: ["ftbchunks:debug"]
+		info_hidden: ["ftbchunks:debug"]
+		
+		# Info displayed under minimap
+		# Default: ["ftbchunks:player_pos", "ftbchunks:biome", "ftbchunks:zone", "ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
+		info_order: [
+			"ftbchunks:player_pos"
+			"ftbchunks:biome"
+			"ftbchunks:zone"
+			"ftbchunks:fps"
+			"ftbchunks:game_time"
+			"ftbchunks:real_time"
+			"ftbchunks:debug"
+		]
+		info_settings: { }
+		
+		# Entities in minimap will be larger
+		# Default: false
+		large_entities: false
+		
+		# Minimap will not rotate
+		# Default: true
+		locked_north: true
+		
+		# Show player heads on minimap
+		# Default: true
+		player_heads: true
+		
+		# Enables minimap to show up in corner
+		# Default: "top_right"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
+		position: "top_right"
+		
+		# Applied a conditional check to the offset. When set to anything other that None, the offset will apply only to the selected minimap position.
+		# When set to none and the maps offset is greater than 0, the offset will apply to all directions
+		# Default: "none"
+		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right", "none"
+		position_offset_condition: "none"
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_x: 0
+		
+		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		position_offset_y: 0
+		
+		# Size minimap proportional to screen width (and scale)
+		# Default: true
+		proportional: true
+		
+		# Scale of minimap
+		# Default: 1.0
+		# Range: 0.25 ~ 4.0
+		scale: 1.0d
+		
+		# Always show player on minimap, even when rotation not locked
+		# Default: true
+		show_player_when_unlocked: true
+		
+		# Draw a square minimap instead of a circular one
+		# Default: false
+		square: false
+		
+		# Minimap visibility
+		# Default: 255
+		# Range: 0 ~ 255
+		visibility: 255
+		
+		# Show waypoints on minimap
+		# Default: true
+		waypoints: true
+		
+		# Zoom distance of the minimap
+		# Default: 1.0
+		# Range: 1.0 ~ 4.0
+		zoom: 1.0d
+	}
+}

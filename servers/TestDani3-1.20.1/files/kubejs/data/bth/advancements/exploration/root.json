@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "bth.advancements.exploration.root.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "show_toast": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "entity": "irons_spellbooks:necromancer",
+    "variants": [],
+    "name": "entity.irons_spellbooks.necromancer",
+    "name_color": "#30211d",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "",
+    "fabricator_drops": [
+        {
+            "item": "irons_spellbooks:arcane_essence",
+            "count": 16
+        },
+        {
+            "item": "irons_spellbooks:common_ink",
+            "count": 6
+        },
+        {
+            "item": "irons_spellbooks:uncommon_ink",
+            "count": 3
+        },
+        {
+            "item": "irons_spellbooks:tarnished_helmet",
+            "count": 1
+        }
+    ],
+    "data_per_kill": [
+        2,
+        8,
+        20,
+        36
+    ]
+}

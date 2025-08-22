@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "betteroceanmonuments:ocean_monument",
+      "weight": 1
+    },
+    {
+      "structure": "seavil:undersea_village",
+      "weight": 1
+    },
+    {
+      "structure": "idas:sunken_ship/sunken_ship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 85626934,
+    "spacing": 80,
+    "separation": 40,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "#bth:submerged_avoid"
+    }
+  }
+}

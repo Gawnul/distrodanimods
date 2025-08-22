@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/Gael/Documents/LauncherCustomDani/Nebula-Workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.6.2",
+    "name": "DaniLand (Minecraft 1.20.1)",
+    "description": "El server de los goldis",
+    "icon": "https://cdn.discordapp.com/attachments/1405862756623712357/1407668326779457627/fotoperfil_1.png?ex=68a8424a&is=68a6f0ca&hm=e348557041415d236b917c6ba5baef488592b794db93a7d5ba85de15f80e80cb&.png",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "47.3.25"
+  },
+  "untrackedFiles": []
+}

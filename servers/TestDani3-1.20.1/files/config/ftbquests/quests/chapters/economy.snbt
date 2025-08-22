@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "economy"
+	group: ""
+	icon: "lightmanscurrency:trading_core"
+	id: "6F6842619486B25F"
+	images: [
+		{
+			height: 2.3d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 0.0d
+			width: 2.3d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			height: 4.0d
+			image: "bth:textures/ancient_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Find &6Tiny Coins&r by exploring. They often appear as loot in containers within structures. The further away the container is from the center of the world, the higher the number of Tiny Coins within will be."
+				""
+				"In addition, higher value loot containers such as treasure chests contain more coins. There's even a small chance for a jackpot!"
+				""
+				"There is no way to craft Tiny Coins. The only way to obtain them is by exploring, making this a finite and valuable resource. Keep that in mind when you spend your Tiny Coins, whether you're shopping or using them to open a portal to Ratlantis."
+			]
+			id: "196F7C9C2353CA33"
+			size: 1.5d
+			subtitle: "The monetary standard."
+			tasks: [{
+				consume_items: false
+				id: "671F6CABFDBC16D9"
+				item: "rats:tiny_coin"
+				match_nbt: false
+				only_from_crafting: false
+				optional_task: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: "createdeco:iron_coin"
+			id: "597F73975885F9EF"
+			subtitle: "100 Tiny Coins"
+			tasks: [{
+				id: "23A1DC13502AD009"
+				type: "checkmark"
+			}]
+			title: "Iron Coin"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			icon: "createdeco:copper_coin"
+			id: "4BF3A7B1EF1161B3"
+			subtitle: "10 Tiny Coins"
+			tasks: [{
+				id: "113CE88A4CA89AE5"
+				type: "checkmark"
+			}]
+			title: "Copper Coin"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: false
+			icon: "createdeco:gold_coin"
+			id: "6EBFBF0CD6F685F1"
+			subtitle: "1,000 Tiny Coins"
+			tasks: [{
+				id: "321438CB62CA5169"
+				type: "checkmark"
+			}]
+			title: "Gold Coin"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			icon: "createdeco:netherite_coin"
+			id: "441342F75225B2A4"
+			subtitle: "10,000 Tiny Coins"
+			tasks: [{
+				id: "731A4BA1098A2DC8"
+				type: "checkmark"
+			}]
+			title: "Netherite Coin"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Villagers may take up the &6Banker&r profession when close to an ATM."
+				""
+				"[ \"Bankers sell economy-related items and cosmetics in exchange for \", { \"text\": \"Tiny Coins\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"196F7C9C2353CA33\" } }, \".\" ]"
+				""
+				"Note that Portable ATMs are disabled in this modpack."
+			]
+			id: "74FF3F1DAD4A3696"
+			subtitle: "Deposit, withdraw and transfer money."
+			tasks: [{
+				id: "456EA22645420566"
+				item: "lightmanscurrency:atm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Workstation for the &6Cashier&r, who sells foods and things useful for exploration."
+				""
+				"&6Traveling cashiers&r can be found with their wagon around the world."
+			]
+			id: "257168BE4ECBDD02"
+			subtitle: "Links multiple local traders"
+			tasks: [{
+				id: "169897776991A70C"
+				item: "lightmanscurrency:cash_register"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["The &6Wandering Trader&r exclusively deals in coins. They sell rare items from across the overworld, and even other dimensions."]
+			icon: "minecraft:wandering_trader_spawn_egg"
+			id: "162791BF4C0456CC"
+			subtitle: "Does not accept emeralds"
+			tasks: [{
+				id: "4B5F7DE893CE1F93"
+				type: "checkmark"
+			}]
+			title: "Wandering Trader"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: "waystones:waystone"
+			id: "6A87A2AE42E4A947"
+			subtitle: "Waystones costs money, not XP, to use."
+			tasks: [{
+				id: "49FB2D2571E47532"
+				type: "checkmark"
+			}]
+			title: "Waystones"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Ancient Coins&r are relics of the Ancients, remnants of a forgotten age. A master of botanical magic may open a &2gateway&r allowing for trade between our world and theirs."
+				""
+				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
+			]
+			id: "29BB3BCD8CF97BB4"
+			subtitle: "Traded for Lembas Bread in the Alfheim portal."
+			tasks: [{
+				id: "0A39FE740E6F3B9E"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:coin_ancient"
+					tag: {
+						CoinType: "COPPER"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Ancient Coins&r are relics of the Ancients, remnants of a forgotten age. A master of botanical magic may open a &2gateway&r allowing for trade between our world and theirs."
+				""
+				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
+			]
+			id: "27A0303DC20F15B5"
+			subtitle: "Traded for Ancient Cookies in the Alfheim portal."
+			tasks: [{
+				id: "5798E5E6917BF256"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:coin_ancient"
+					tag: {
+						CoinType: "IRON"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Ancient Coins&r are relics of the Ancients, remnants of a forgotten age. A master of botanical magic may open a &2gateway&r allowing for trade between our world and theirs."
+				""
+				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
+			]
+			id: "2C69C14AA06A1039"
+			subtitle: "TBD - reserved for future use."
+			tasks: [{
+				id: "62C6A986578E4CC9"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:coin_ancient"
+					tag: {
+						CoinType: "GOLD"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Ancient Coins&r are relics of the Ancients, remnants of a forgotten age. A master of botanical magic may open a &2gateway&r allowing for trade between our world and theirs."
+				""
+				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
+			]
+			id: "3216E6F09031BDAC"
+			subtitle: "TBD - reserved for future use."
+			tasks: [{
+				id: "7B8481F12BBCBC3B"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:coin_ancient"
+					tag: {
+						CoinType: "DIAMOND"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "Economy"
+}

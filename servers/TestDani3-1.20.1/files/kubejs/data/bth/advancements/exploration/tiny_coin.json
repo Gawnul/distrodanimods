@@ -1,0 +1,37 @@
+{
+  "parent": "bth:exploration/root",
+  "criteria": {
+    "tiny_coin": {
+      "conditions": {
+        "items": [
+          {
+          "items": [
+            "rats:tiny_coin"
+          ]
+        }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "bth.advancements.exploration.tiny_coin.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.tiny_coin.description"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rats:tiny_coin"
+    },
+    "show_toast": false
+  },
+  "requirements": [
+    [
+    "tiny_coin"
+  ]
+  ]
+}

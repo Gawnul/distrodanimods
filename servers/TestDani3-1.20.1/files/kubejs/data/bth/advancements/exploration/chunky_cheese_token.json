@@ -1,0 +1,42 @@
+{
+  "parent": "bth:exploration/tiny_coin",
+  "criteria": {
+    "token": {
+      "conditions": {
+        "items": [
+          {
+          "items": [
+            "rats:chunky_cheese_token"
+          ]
+        }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "bth.advancements.exploration.chunky_cheese_token.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.chunky_cheese_token.description"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rats:chunky_cheese_token"
+    },
+    "show_toast": false
+  },
+  "rewards": {
+    "loot": [
+      "bth:heart_container"
+    ]
+  },
+  "requirements": [
+    [
+    "token"
+  ]
+  ]
+}
