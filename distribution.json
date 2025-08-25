@@ -2393,6 +2393,16 @@
           }
         },
         {
+          "id": "generated.forgemod:irons_spells_dynamic_skilltree:1.1.0@jar",
+          "name": "Iron's Spells 'n Spellbooks Dynamic Skill Tree",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 254720,
+            "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/irons_spells_dynamic_skilltree_1.1.0.jar",
+            "MD5": "7ce14cf7e9bf74b8e3d987f918cc960a"
+          }
+        },
+        {
           "id": "com.squoshi:irons_spells_js:3.1.1@jar",
           "name": "Iron's Spellbooks KubeJS",
           "type": "ForgeMod",
