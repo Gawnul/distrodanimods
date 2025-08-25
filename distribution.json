@@ -2103,6 +2103,16 @@
           }
         },
         {
+          "id": "com.anthonyhilyard:highlighter:1.1.9@jar",
+          "name": "Highlighter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29438,
+            "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/Highlighter-1.20.1-forge-1.1.9.jar",
+            "MD5": "650eec32fdb7c58c30c4d9aa911073d5"
+          }
+        },
+        {
           "id": "io.github.mortuusars:horseman:1.3.9@jar",
           "name": "Horseman",
           "type": "ForgeMod",
@@ -2180,6 +2190,16 @@
             "size": 5497,
             "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/iceandfirebettercombat1.20.1-1.0.1.jar",
             "MD5": "d796be15901f34d7be18c646ac8ef7fd"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134551,
+            "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.25.jar",
+            "MD5": "cda8af806d0de012f5c7012ea51c155f"
           }
         },
         {
@@ -2413,6 +2433,16 @@
           }
         },
         {
+          "id": "com.anthonyhilyard:itemborders:1.2.2@jar",
+          "name": "Item Borders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20832,
+            "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/ItemBorders-1.20.1-forge-1.2.2.jar",
+            "MD5": "793065b9ff71daee43319db717dac23f"
+          }
+        },
+        {
           "id": "snownee.jade:jade:11.13.1+forge@jar",
           "name": "Jade",
           "type": "ForgeMod",
@@ -2610,6 +2640,16 @@
             "size": 16062,
             "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/leaky-1.20.1-2.1.jar",
             "MD5": "680c51429d1d1c2faafe728369ae5597"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55258,
+            "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+            "MD5": "18c8e50bb98e24d86aa96a8b25dc6091"
           }
         },
         {
@@ -3210,6 +3250,16 @@
             "size": 5733027,
             "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/PresenceFootsteps-1.9.4+1.20.1.jar",
             "MD5": "5d05759103ef318aea55a0cd90d5bd36"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52205,
+            "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/forgemods/required/Prism-1.20.1-forge-1.0.5.jar",
+            "MD5": "de0e319e29e813f407314b33739f7eb8"
           }
         },
         {
@@ -7912,9 +7962,9 @@
           "name": "DistantHorizons.toml",
           "type": "File",
           "artifact": {
-            "size": 31521,
+            "size": 31522,
             "url": "https://gawnul.github.io/distrodanimods/servers/TestDani3-1.20.1/files/config/DistantHorizons.toml",
-            "MD5": "a433d4083c074ba93b69cdfa092df4af",
+            "MD5": "c7102c140b00215f211f19cfb3fc80ad",
             "path": "config/DistantHorizons.toml"
           }
         },
