@@ -6,18 +6,24 @@
     <description>Últimas noticias del launcher</description>
     <language>es-es</language>
     
-    <item>
-      <title>Abrimos el servidor 1.20!</title>
-      <link>https://tusitio.com/noticias/abrimos-servidor</link>
-      <description>El servidor se actualizó a la versión 1.20. Ven a jugar con tus amigos.</description>
-      <pubDate>Fri, 22 Aug 2025 14:00:00 GMT</pubDate>
-    </item>
-    
-    <item>
-      <title>Mantenimiento programado</title>
-      <link>https://tusitio.com/noticias/mantenimiento</link>
-      <description>El servidor estará en mantenimiento el sábado de 2:00 a 4:00 UTC.</description>
-      <pubDate>Thu, 21 Aug 2025 10:00:00 GMT</pubDate>
-    </item>
+<item>
+  <title>Abrimos el servidor 1.20!</title>
+  <link>https://tusitio.com/noticias/abrimos-servidor</link>
+  <description>El servidor se actualizó a la versión 1.20. Ven a jugar con tus amigos.</description>
+  <pubDate>Fri, 22 Aug 2025 14:00:00 GMT</pubDate>
+  
+  <!-- Autor -->
+  <author>admin@tusitio.com (Administrador)</author>
+  
+  <!-- Categoría -->
+  <category>Actualización</category>
+  
+  <!-- Imagen destacada -->
+  <enclosure url="https://assets.badlion.net/blog/minecraft-backgrounds/jungle-lake.webp" type="image/png" length="12345"/>
+  
+  <!-- Guid único (importante para que el launcher no confunda items) -->
+  <guid isPermaLink="false">noticia-abrimos-servidor-120</guid>
+</item>
+
   </channel>
 </rss>
