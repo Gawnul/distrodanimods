@@ -28524,17 +28524,6 @@
           }
         },
         {
-          "id": "Skyrim Soundpack v6.1.zip",
-          "name": "Skyrim Soundpack v6.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 236930222,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/files/config/paxi/resourcepacks/Skyrim%20Soundpack%20v6.1.zip",
-            "MD5": "5b9c467b29d4b1549bdad63213c3ee51",
-            "path": "config/paxi/resourcepacks/Skyrim Soundpack v6.1.zip"
-          }
-        },
-        {
           "id": "resourcepack_load_order.json",
           "name": "resourcepack_load_order.json",
           "type": "File",
