@@ -1,0 +1,537 @@
+{
+	autofocus_id: "359408899CA0A34E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5_dragons_and_deities"
+	group: "47B0A784051454EE"
+	hide_quest_until_deps_complete: true
+	icon: "irons_spellbooks:fire_upgrade_orb"
+	id: "695F444F3176354D"
+	images: [
+		{
+			height: 10.0d
+			image: "realmrpg_quests:textures/screens/quest_book_bg.png"
+			order: 1
+			rotation: 90.0d
+			width: 18.52112676056338d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 10.0d
+			image: "realmrpg_quests:textures/screens/quest_book_bg.png"
+			order: 1
+			rotation: -90.0d
+			width: 18.52112676056338d
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			height: 9.0d
+			image: "otherworld:textures/chapter_five_a.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			height: 10.0d
+			image: "otherworld:textures/chapter_five_b.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -24.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["359408899CA0A34E"]
+			description: [""]
+			icon: "minecraft:dragon_breath"
+			id: "3DB7FC09CF98FA08"
+			subtitle: "Las tres Piedras restantes están ligadas a las fuerzas del &cFuego&r, el &bHielo&r y el &eRayo&r. \\n\\nLa leyenda presagia que poderosos &dmagos&r en estas tres artes ya habrán comenzado a experimentar. \\n\\nEncontrar a estos &dmagos&r es crucial."
+			tasks: [{
+				id: "7ACE57FA0C97210F"
+				type: "checkmark"
+			}]
+			title: "Fragmentos de la Creación"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DB7FC09CF98FA08"]
+			id: "015BA9254C10B77B"
+			subtitle: "Busca al Piromante, el hechicero envuelto en llamas."
+			tasks: [{
+				entity: "irons_spellbooks:pyromancer"
+				icon: "irons_spellbooks:fire_upgrade_orb"
+				id: "73337633E44C06D6"
+				title: "[NVL 12+] Piromante"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["015BA9254C10B77B"]
+			description: [
+				"Los dragones jóvenes se encuentran en pequeños posaderos en la superficie (Etapas 1-3)"
+				""
+				"Los dragones mayores (Etapa 4 y raramente Etapa 5) acechan en Cavernas bajo tierra"
+				""
+				"{image:otherworld:textures/fire_dragon.png width:200 height:200 align:center}"
+			]
+			id: "1448B80169CFA171"
+			rewards: [
+				{
+					id: "4AE0FEE4F92D8364"
+					item: {
+						Count: 1
+						id: "traveloptics:fire_echo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3390AF59171A36D6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "La encarnación del fuego primario. Su corazón arde con un poder contenido.\\n\\nLos Dragones de Fuego aparecen en biomas cálidos, como los desiertos."
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				id: "31DDEC7396AFCA68"
+				title: "[NVL 15-20] Dragón de Fuego"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1448B80169CFA171"]
+			description: [""]
+			icon: "otherworld:fire_stone"
+			id: "2336FEC5C99EC5CA"
+			rewards: [{
+				id: "7280055E92BD4833"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Lanza un &6hechizo de fuego extremadamente poderoso&r sobre un &cCorazón de Dragón de Fuego&r, o haz que un &6Dragón de Fuego&r &6exhale fuego&r sobre él.\\n\\nO combina el corazón con sangre de dragón de fuego en una &cFragua de Dragón de Fuego&r."
+			tasks: [{
+				id: "2A11F23F1A3CC979"
+				item: "otherworld:fire_stone"
+				type: "item"
+			}]
+			title: "Corazón del Infierno"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DB7FC09CF98FA08"]
+			id: "2189546411DF43D9"
+			subtitle: "Encuentra al Criomante, el maestro del frío mordaz."
+			tasks: [{
+				entity: "irons_spellbooks:cryomancer"
+				icon: "irons_spellbooks:ice_upgrade_orb"
+				id: "2E56C2726F51427D"
+				title: "[NVL 12+] Criomante"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2189546411DF43D9"]
+			description: [
+				"Los dragones jóvenes (Etapas 1-3) se encuentran en pequeños posaderos en la superficie"
+				""
+				"Los dragones mayores (Etapa 4 y raramente Etapa 5) acechan en Cavernas Subterráneas"
+				""
+				"{image:otherworld:textures/ice_dragon.png width:200 height:200 align:center}"
+			]
+			id: "00837AAE6870A33F"
+			rewards: [
+				{
+					id: "2B2A5D4E44B0A032"
+					item: {
+						Count: 1
+						id: "traveloptics:ice_echo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "19BE135E07B56FA0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Un presagio de un eterno invierno venidero. Su corazón helado late lentamente.\\n\\nPuede encontrarse en &bbiomas fríos&r."
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				id: "0CC71E7474699E7C"
+				title: "[NVL 15-20] Dragón de Hielo"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00837AAE6870A33F"]
+			description: [""]
+			icon: "otherworld:ice_stone"
+			id: "3006CEACA0D5ADAF"
+			rewards: [{
+				id: "27BCADAA8F7EDEE6"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Coloca un &bCorazón de Dragón de Hielo&r sobre &9Hielo Azul&r bajo el cielo nocturno, muy alto en el aire (Y > 192), y espera.\\n\\nO combina el corazón con Sangre de Dragón de Hielo en una &bFragua de Dragón de Hielo&r."
+			tasks: [{
+				id: "631409324C20672E"
+				item: "otherworld:ice_stone"
+				type: "item"
+			}]
+			title: "Corazón del Invierno"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DB7FC09CF98FA08"]
+			id: "3BC8634124F7F8A3"
+			subtitle: "Rastrea al Archevocador, el invocador que comanda la tormenta."
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				icon: "irons_spellbooks:lightning_upgrade_orb"
+				id: "48FECF65A627313C"
+				title: "[NVL 12+] Archevocador"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BC8634124F7F8A3"]
+			description: [
+				"Los dragones jóvenes se encuentran en pequeños posaderos en la superficie (Etapas 1-3)"
+				""
+				"Los dragones mayores (Etapa 4 y raramente Etapa 5) acechan en Cavernas bajo tierra"
+				""
+				"{image:otherworld:textures/lightning_dragon.png width:200 height:200 align:center}"
+			]
+			id: "5AE948B100CFA36E"
+			rewards: [
+				{
+					id: "79F44722717D2B16"
+					item: {
+						Count: 1
+						id: "traveloptics:lightning_echo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3A6E8D7F56E76AA9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "El señor garraúdo de las tormentas. Su corazón crepita con caos puro.\\n\\nSe encuentra en biomas de Jungla, Sabana y Badlands"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				id: "36BAAEDE9FEB7500"
+				title: "[NVL 15-20] Dragón de Rayo"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5AE948B100CFA36E"]
+			description: [""]
+			icon: "otherworld:lightning_stone"
+			id: "039F7F32E8C5708F"
+			rewards: [{
+				id: "4CB335B3B8993909"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Coloca un &eCorazón de Dragón de Rayo&r en lo alto de un &6Pararrayos&r, y espera a que caiga un rayo.\\n\\nO combina el corazón con Sangre de Dragón de Rayo en una &eFragua de Dragón de Rayo&r"
+			tasks: [{
+				id: "5C2E7E7D8500C62E"
+				item: "otherworld:lightning_stone"
+				type: "item"
+			}]
+			title: "Corazón de la Tempestad"
+			x: 0.0d
+			y: 3.125d
+		}
+		{
+			dependencies: ["4D0E957C7B25E257"]
+			description: [
+				"Una criatura de tal magnitud que se dice que sacude el mundo entero."
+				""
+				"El Sacrificio Abisal se elabora con objetos que dejan caer los enemigos dentro de la &3Ciudad Hundida&r"
+				""
+				"{image:otherworld:textures/abyssal_sacrifice.png width:200 height:100 align:center}"
+				"{image:otherworld:textures/the_leviathan.png width:200 height:150 align:center}"
+			]
+			id: "63B0812F1FE00009"
+			rewards: [{
+				id: "2AC1CFA48E436FF4"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Una criatura tocada por el vacío que descansa en la &3Ciudad Hundida&r del Océano.\\n\\nEncuentra la ciudad con un &5Ojo del Abismo&r, luego invócalo usando un &5Sacrificio Abisal&r en el &dAltar del Abismo&r"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:altar_of_abyss"
+				id: "5600435042A78302"
+				title: "[NVL 17] Leviatán"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["63B0812F1FE00009"]
+			description: [
+				""
+				"{image:otherworld:textures/void_compass.png width:200 height:100 align:center}"
+			]
+			icon: "otherworld:void_compass"
+			id: "5456191220B801E3"
+			subtitle: "El &5Resonador del Vacío&r que deja caer el Leviatán debería ser suficientemente potente para vincularse con la Fortaleza Antigua. \\n\\nCrea la &8Brújula del Vacío&r infundiendo una brújula estándar con el &5Resonador del Vacío&r y un &3Fragmento de Eco&r."
+			tasks: [{
+				id: "04994F5D26B2B986"
+				item: "otherworld:void_compass"
+				type: "item"
+			}]
+			title: "Ecos del Vacío"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5456191220B801E3"]
+			description: [""]
+			id: "04226C4F4D58A0D8"
+			subtitle: "Sigue con éxito la Brújula del Vacío hacia la Fortaleza Antigua.\\n\\nResuelve sus acertijos para encontrar la &dSala del Portal&r y ábrel usando &3Ojos de Ender&r"
+			tasks: [{
+				icon: "chipped:pillar_lodestone_bricks"
+				id: "7DB211F3AD3EB05C"
+				structure: "integrated_stronghold:stronghold"
+				title: "Encuentra la &2Fortaleza Antigua&r"
+				type: "structure"
+			}]
+			title: "&2Punto del Nexo&r"
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3A468D975CDA2966"]
+			description: [""]
+			icon: "alshanex_familiars:mysterious_orb"
+			id: "14C57BC5A8B8F1BB"
+			subtitle: "Coloca las seis piedras en sus altares correspondientes."
+			tasks: [{
+				advancement: "otherworld:story/elemental_mastery"
+				criterion: ""
+				icon: "alshanex_familiars:mysterious_orb"
+				id: "1C3C00312CD37B42"
+				type: "advancement"
+			}]
+			title: "Activa los 6 &dAltares del Nexo&r"
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["16288C0F901F73DE"]
+			description: [""]
+			id: "78B754D54F250756"
+			rewards: [{
+				id: "129F540069291D9D"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "El camino final pasa por el Nexo Elemental.\\n\\n¿Qué secretos duermen aquí?"
+			tasks: [{
+				dimension: "otherworld:elemental_nexus"
+				icon: "otherworld:nexus_altar"
+				id: "1F161345CEF315D5"
+				title: "Entra por el &dPortal del Fin&r"
+				type: "dimension"
+			}]
+			title: "Donde los Mundos Colisionan"
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["78B754D54F250756"]
+			description: ["{image:otherworld:textures/returning_knight.png width:150 height:200 align:center}"]
+			id: "3A468D975CDA2966"
+			rewards: [{
+				id: "0AAB85668D768A00"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Un solemne guerrero permanece en el umbral, guardando el acceso a los mecanismos del portal."
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				icon: {
+					Count: 1
+					id: "soulsweapons:pure_moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "77FBBD2ADCD7D461"
+				title: "[NVL 18] Caballero Retornante"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["14C57BC5A8B8F1BB"]
+			description: ["{image:otherworld:textures/moonknight.png width:140 height:220 align:center}"]
+			id: "13A42C7ADBC0CDDC"
+			rewards: [
+				{
+					id: "02204F7D2B86A849"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @s chapter_5 true"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 7s
+							}]
+						}
+					}
+					id: "76ED4C1323A306DE"
+					silent: true
+					title: "Desbloquear Nivel de Personaje 18+"
+					type: "command"
+				}
+				{
+					id: "549261AE86C5B865"
+					item: "legendarysurvivaloverhaul:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24226EFDA693A190"
+					table_id: 1011655594418792874L
+					type: "choice"
+				}
+			]
+			size: 1.0d
+			subtitle: "El Caballero Retornante, corrompido y potenciado por energías inestables en cambio constante, bloquea el camino que lleva a la puerta del Fin.\\n\\nAparece tras colocar la última piedra."
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				icon: {
+					Count: 1
+					id: "soulsweapons:moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1E4D9D85C3D41A04"
+				title: "[NVL 20] Icono Caído"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -19.5d
+		}
+		{
+			description: [
+				"Este artefacto recuperado del Vestigio Antiguo habla de seis poderosas Piedras, puntos focales de energías esenciales, que sirven como llaves a un lugar llamado el Nexo Elemental. La &2Piedra de la Tierra&r, la &6Piedra de la Vida&r y la &5Piedra de la Muerte&r conforman la mitad de estas."
+				""
+				"Las tres Piedras restantes están ligadas a las fuerzas del &cFuego&r, el &bHielo&r y el &eRayo&r. La leyenda presagia que poderosos magos en estas tres artes ya habrán comenzado a experimentar; estos &dmagos&r podrían tener más información."
+				""
+				"El libro también menciona una fortaleza oculta restante, que resuena con las energías del &5abismo&r. Una guía hacia esta fortaleza puede encontrarse en una antigua &3Ciudad Hundida&r de leyenda, y podría usarse para fabricar una brújula que conduzca a esta última fortaleza."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			icon: "minecraft:written_book"
+			id: "359408899CA0A34E"
+			shape: "pentagon"
+			subtitle: "Un tomo que contiene fragmentos de historia olvidada. Léelo con atención."
+			tasks: [{
+				consume_items: false
+				id: "3F103FC2C522ABFA"
+				item: "otherworld:nexus_book"
+				match_nbt: false
+				title: "Lee los \"Susurros del Nexo\""
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["359408899CA0A34E"]
+			description: ["{image:otherworld:textures/eye_of_abyss.png width:200 height:100 align:center}"]
+			id: "4D0E957C7B25E257"
+			subtitle: "El tomo mencionaba una fortaleza oculta restante que resuena con las energías del &5abismo&r, y una &3antigua ciudad submarina&r que también resuena con gran &5energía abisal&r. \\n\\nLa ciudad puede encontrarse con el &5Ojo del Abismo&r."
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "64891DD608519CF6"
+				structure: "cataclysm:sunken_city"
+				title: "Localiza la &3Ciudad Hundida&r"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["04226C4F4D58A0D8"]
+			id: "16288C0F901F73DE"
+			rewards: [{
+				id: "56940FE726927B5A"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Este antiguo gólem reacciona a la apertura del portal."
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				icon: "legendary_monsters:eye_of_many_ribs"
+				id: "3DFD308B3FBE667A"
+				title: "[NVL 15] Guardián Antiguo"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+	]
+	title: " &6Dragones \\& Deidades &f|&r &7(Nv. 15+)"
+}

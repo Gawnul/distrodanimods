@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: "25422B67437A4FD8"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:diamond_spell_book"
+		tag: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 10
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "28763159CEAB2538"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Muchas clases o razas comienzan con un truco innato u otro hechizo de nivel bajo. "
+				""
+				"Estos &o&lno se aprenden&r y usan una tecla completamente distinta a la de otros hechizos. Para ver cómo lanzarlos, pulsa &bO&r y lee la descripción de tu Origen. El botón cuadrado (a menudo rojo o azul) te indicará exactamente qué tecla usar cuando pases el cursor sobre él. "
+			]
+			id: "1E8B6B680DED38F8"
+			rewards: [{
+				id: "74C4FD6AD129B41F"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			subtitle: "Cómo lanzar y aprender nuevos hechizos"
+			tasks: [{
+				id: "7BB7D118F3960619"
+				title: "Introducción a la Magia"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E8B6B680DED38F8"]
+			id: "0BD54066854A7F87"
+			rewards: [{
+				id: "00365C981196B02D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "La mayoría de los pergaminos pueden usarse para lanzar un hechizo directamente, pero si es un hechizo que puedes aprender, normalmente es mejor guardarlo."
+			tasks: [{
+				id: "5E96891E0C40C255"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:gust"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: false
+				title: "Encuentra un &dPergamino de Hechizo&r"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0BD54066854A7F87"]
+			id: "270D2FFDE087894C"
+			rewards: [{
+				id: "6E7E32AE0C8AED10"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20860C4F35E7F7BB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:spellbook"
+					}
+				}
+				title: "Cualquier #curios:spellbook"
+				type: "item"
+			}]
+			title: "Encuentra o crea un &dGrimorio&r."
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["270D2FFDE087894C"]
+			id: "11D723B16803B8D3"
+			rewards: [{
+				id: "1226F5B6C16A3B77"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "En este banco puedes añadir (¡y eliminar!) pergaminos de hechizo a tus Grimorios. "
+			tasks: [{
+				id: "1966FBFB0DAE9CFA"
+				item: "irons_spellbooks:inscription_table"
+				title: "Crea una &6Mesa de Inscripción&r"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11D723B16803B8D3"]
+			description: ["El &dYunque Arcano&r se usa para:"]
+			id: "0E383D8790095F1C"
+			rewards: [{
+				id: "7249425875C97EA8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Este yunque mágico sirve para &dmejorar hechizos con tinta&r, &cimbuir hechizos en armas&r y &9tejer orbes de mejora en armaduras y bastones&r"
+			tasks: [{
+				id: "3078790C49B97264"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E383D8790095F1C"]
+			description: ["Hay mucho más por descubrir sobre la magia de este mundo... Mantén la curiosidad. "]
+			id: "7AE9AE1C4CF766E8"
+			rewards: [{
+				id: "644DDD20A2AC3AAF"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Usando este caldero mágico puedes &dextrar la tinta mágica&r de los pergaminos de hechizo para usarla en otro lugar."
+			tasks: [{
+				id: "6C1F3DCFB9766372"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+	]
+	title: " &dMagia&r"
+}

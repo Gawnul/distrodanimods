@@ -1,0 +1,565 @@
+{
+	autofocus_id: "25C4269D9783091B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1_ghosts_of_ages_past"
+	group: "47B0A784051454EE"
+	hide_quest_until_deps_complete: true
+	icon: "otherworld:death_stone"
+	id: "177821E51638C827"
+	images: [
+		{
+			height: 10.0d
+			image: "realmrpg_quests:textures/screens/quest_book_bg.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.52112676056338d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			height: 13.0d
+			image: "otherworld:textures/chapter_one.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -5.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["53FD6D212F70D484"]
+			description: [
+				"{image:otherworld:textures/posessed_paladin.png width:120 height:180 align:center}"
+				""
+				""
+				""
+				"&7&o\"Los susurros ofrecen poder. Sé reconocer una trampa cuando la veo; pero debo respetar el poder de quienes han hecho ese voto. Perturbo su control. Me necesitan fuera del camino, lo presiento.\"&r "
+				""
+			]
+			id: "0F5B65A4DC665C6C"
+			rewards: [{
+				id: "67C79BBDB3A2A505"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "En su día, Sir Kaelen el Firme; su virtud declarada lo ha convertido en un objetivo para el Liche. \\n\\nSe encuentra en una Cripta Abandonada. Sigue el &3Ojo del Fantasma&r para encontrarla."
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: "legendary_monsters:eye_of_ghost"
+				id: "03F7C9DA5B9B2488"
+				title: "[NVL 4] Paladín Poseído"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C64330FB307C23C"]
+			description: ["{image:otherworld:textures/captain_cornelia.png width:120 height:100 align:center}"]
+			id: "1AD7DB0F192E3A55"
+			rewards: [{
+				id: "16992260FCA81E31"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "Llámala usando la Bocina de Caracola cerca de su barco abandonado, en un &3Laberinto de Hielo&r.\\n\\nPara reducir sus defensas, inflígele &8Debilidad&r."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "572B311673B0B1BB"
+				title: "[NVL 5] Fantasma de la Capitana Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04343D2A9C34BC47"]
+			description: ["{image:otherworld:textures/draugr_boss.png width:130 height:150 align:center}"]
+			id: "2F6F8CA5321EBECA"
+			subtitle: "Un guerrero que entrenó toda su vida para una profecía que nunca se cumplió.\\n\\nSe encuentra en la Tumba del Viejo Campeón. Localízala con una &bBrújula de Piedra Lunar&r"
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1
+					id: "soulsweapons:draugr"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4258F7B1AF3CBD56"
+				title: "[NVL 6] Viejo Campeón"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6A1272499C491048"]
+			description: [
+				"{image:otherworld:textures/lich.png width:150 height:150 align:center}"
+				""
+				"\"La naturaleza de la mente es inescrutable. Los necios creen que requiere la continuidad de la vida. Hay más en esta historia.\""
+				"&7- Diario del Liche&r"
+			]
+			id: "4D302ED193B29EA1"
+			rewards: [{
+				id: "6BF65A76AFC396E8"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "Un poderoso mago obsesionado con los secretos de la vida y la muerte. \\n\\nConvócalo colocando una &bEstrella de Alma&r en cada uno de los cuatro Altares de Piedra Tallada."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:soul_star"
+				id: "0B62EDD4F4F4204F"
+				title: "[NVL 7] Liche Nocturno"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["583549022CAC7998"]
+			description: [
+				"{image:otherworld:textures/dead_king.png width:100 height:200 align:center}"
+				""
+				"\"Pero ¿qué hay aquí, Ulfric? ¿Qué queda?"
+			]
+			id: "5F2041DE2169DEF8"
+			rewards: [{
+				id: "7438CA4BBAC5317E"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "El sujeto más exitoso del Liche Nocturno, y el más trágico. \\n\\nBuscó preservar su reino para siempre, solo para gobernar un trono vacío por la eternidad."
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "3AC9070CD04E1CD3"
+				title: "[NVL 8] &4Rey Muerto&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5F2041DE2169DEF8"]
+			description: [
+				"Los escritos del Liche sugieren que un &2Altar&r encontrado en el &bSantuario bajo su torre&r reaccionará a la &o\"esencia destilada de la pura desesperación\"&r. "
+				""
+				"El &8Collar&r que dejó caer el &4Rey Muerto&r debía haberse preparado exactamente para este propósito. "
+			]
+			icon: "otherworld:death_stone"
+			id: "55745170634264F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6497B8B08658EE25"
+					table_id: 402326275143769200L
+					type: "choice"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @s chapter_1 true"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 7s
+							}]
+						}
+					}
+					id: "7A67F9F0EDB91EDD"
+					silent: true
+					title: "Desbloquear Nivel de Personaje 6+"
+					type: "command"
+				}
+				{
+					id: "7940D3AD6D184E4D"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "0C7BF40FF41147FC"
+					item: "legendarysurvivaloverhaul:heart_container"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Infunde el &8Collar del Dolor&r en el &bSantuario del Liche bajo su Torre&r. "
+			tasks: [{
+				id: "26D0406B1B0B2B20"
+				item: "otherworld:death_stone"
+				title: "Obtén la &4Piedra de la Muerte&r"
+				type: "item"
+			}]
+			title: "Esencia de la Desesperación"
+			x: -10.625d
+			y: 9.375d
+		}
+		{
+			dependencies: ["2F6F8CA5321EBECA"]
+			description: ["{image:otherworld:textures/night_shade.png width:130 height:150 align:center}"]
+			id: "0EF7950125EE70A4"
+			rewards: [{
+				id: "67ADF82C74B36E2C"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "La sombra del Viejo Campeón, deformada por el duelo y la negación de un potencial perdido. Poseerá a los jugadores cercanos. \\n\\nAparece al derrotar al Viejo Campeón."
+			tasks: [{
+				entity: "soulsweapons:night_shade"
+				icon: {
+					Count: 1
+					id: "soulsweapons:forlorn_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D4163271D25F874"
+				title: "[NVL 6] Sombra Enloquecida"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.125d
+			y: 11.25d
+		}
+		{
+			dependencies: ["04343D2A9C34BC47"]
+			id: "6A1272499C491048"
+			subtitle: "Un fragmento del poder del &bLiche Nocturno&r, aún vinculado a su fuente. Lánzalo y síguelo para encontrar la &bTorre del Liche&r. \\n\\nLas &bEstrellas de Alma&r caen de los &2No Muertos&r"
+			tasks: [{
+				id: "650F24199C5F826D"
+				item: "bosses_of_mass_destruction:soul_star"
+				title: "Obtén una &bEstrella de Alma"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["28F686844D6920F8"]
+			id: "589B6BE23946BA47"
+			rewards: [{
+				id: "108CFF839BEC9C41"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Una aterradora aparición enviada por el Liche para absorber la fuerza vital de quienes interfieren. Su presencia marca una profundización de la corrupción necromántica.\\n\\nAparece tras la décima noche, cazando a quienes interfieren."
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "01F2DC61E8331E4A"
+				title: "(Opcional) Derrota al &4Roba-vidas"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["215B11F593D82984"]
+			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			id: "25C4269D9783091B"
+			rewards: [{
+				id: "30A95544CEAA7894"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "Un depredador sombrío enviado por el Liche para eliminar amenazas. Sus gélidos susurros reflejan el creciente horror a medida que el poder del Liche se expande.\\n\\nAparece desde la tercera noche en adelante, buscando obstáculos para los planes de su amo."
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "23EE8D75805C9FFD"
+				title: "(Opcional) Mata a un &1Acechador de Pesadilla&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["589B6BE23946BA47"]
+			id: "63216906038EA251"
+			rewards: [
+				{
+					id: "63923D0F58E8BE2D"
+					item: {
+						Count: 1
+						id: "valoria:ethereal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376C8FF9A57EA398"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			subtitle: "Vestido con túnicas andrajosas, este misionero no muerto extiende la influencia del Liche y caza a quienes resisten el 'regalo' de la no-muerte.\\n\\nAparece desde la décima noche en adelante, cumpliendo la voluntad del Liche."
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:missionary_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3E07E8FF7725C6B3"
+				title: "(Opcional) Derrota al &dMisionero&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25C4269D9783091B"]
+			id: "28F686844D6920F8"
+			rewards: [{
+				id: "39EF198784314AD7"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Fue un guerrero valiente, ahora retorcido al servicio del Liche. Este caballero caído ejemplifica el destino que aguarda a quienes se oponen a la marea inevitable de la no-muerte.\\n\\nUn campeón corrompido, enviado a aplastar la resistencia."
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "born_in_chaos_v1:death_totem"
+				id: "0D229521F0963898"
+				title: "(Opcional) Derrota al &3Caballero del Caos Caído&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			description: ["\"Los no muertos ya no deambulan sin rumbo. Los he visto organizarse, planear, susurrarse entre sí en idiomas que no entendí...\""]
+			id: "5C297931430CAF19"
+			subtitle: "Un antiguo rumor crece bajo el Otherworld. Los muertos han comenzado a levantarse con un aterrador sentido del propósito.\\n\\n¿Qué fuerza está detrás de su resurgimiento? "
+			tasks: [{
+				icon: "scholar:black_writable_book"
+				id: "5E559F7B7E96E50F"
+				observe_type: 5
+				timer: 0L
+				title: "Encuentra un &2Zombi"
+				to_observe: "minecraft:zombie"
+				type: "observation"
+			}]
+			title: "&4Capítulo 1&r&0| &fFantasmas de Épocas Pasadas"
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			id: "3E23E47D7B1AE506"
+			invisible: true
+			rewards: [{
+				id: "6431BC05418CF2DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Un cadáver común, que ya comienza a pudrirse hasta convertirse en esqueleto. \\n\\nUn miembro básico, aunque peligroso, de los muertos levantados."
+			tasks: [{
+				entity: "born_in_chaos_v1:decaying_zombie"
+				icon: "minecraft:zombie_head"
+				id: "6E22B6200AC53647"
+				title: "(Opcional) Mata a un &2Zombi en Descomposición&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E23E47D7B1AE506"]
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "215B11F593D82984"
+			rewards: [{
+				id: "5ED903959C41A804"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Más duro, más brutal y sorprendentemente astuto. Este horror no muerto parece conservar algo de su antigua destreza en combate.\\n\\nUna variante más fuerte de los muertos errantes."
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				id: "39D44629D9EB1222"
+				title: "(Opcional) Mata a un &2Zombi Brutote&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4D302ED193B29EA1"
+				"0EF7950125EE70A4"
+			]
+			description: ["{image:otherworld:textures/wayward_compass.png width:150 height:75 align:center}"]
+			hide_until_deps_visible: false
+			id: "1BBA56556DCE70EE"
+			invisible_until_tasks: 1
+			min_required_dependencies: 1
+			rewards: [{
+				count: 4
+				id: "0B5AE9B63D7D96FB"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			subtitle: "Menciona una obra maestra, un rey atrapado y un castillo subterráneo, mantenido vivo durante milenios\\n\\n&7El diario menciona a un rey, un altar y el uso de una \"&3Brújula Errante&r\". "
+			tasks: [{
+				id: "245A3B404CDFD906"
+				item: "otherworld:lich_journal"
+				match_nbt: false
+				title: "Obtén el &bDiario del Liche&r"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C297931430CAF19"]
+			description: ["{image:otherworld:textures/eye_of_ghost.png width:150 height:75 align:center}"]
+			icon: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					author: "???"
+					"otherworld:is_quest_item": 1b
+					pages: [
+						"{\"text\":\"Saludos, hijo mío; \\n\\nEspero que estés disfrutando de tus nuevas capacidades. \\n\\nSigue sembrando el caos como puedas. El miedo crece, el sufrimiento abunda: todo según el plan.\"}"
+						"{\"text\":\"El paladín Kaelen es una amenaza para nuestra causa.\\n\\nCuanto más tiempo viva, difundiendo sus virtudes, más audaz se vuelve la población.\\n\\nDebe ser eliminado. El &3Ojo de los Fantasmas&r ya está vinculado a él: úsalo para rastrearlo.\"}"
+					]
+					resolved: 1b
+					title: "Misiva Rasgada"
+				}
+			}
+			id: "53FD6D212F70D484"
+			rewards: [{
+				count: 4
+				id: "4AC9E88EDDA2A85D"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			subtitle: "Parece que los no muertos tienen algún tipo de nuevo amo. \\n\\nLa nota que dejó caer un zombi menciona a un paladín y el uso de un &3Ojo del Fantasma&r para encontrarlo"
+			tasks: [{
+				id: "5A963A1DDF4375F2"
+				item: "otherworld:lich_missive"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Encuentra y lee la &2Misiva&r encontrada en un Zombi."
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42B1BFC324919137"]
+			id: "3C64330FB307C23C"
+			subtitle: "La &6Capitana&r no aparece por ningún lado, pero la entrada del barco menciona que fue a &3bucear bajo el agua&r.\\n\\nLa &2Bocina de Caracola&r debería poder llamarla."
+			tasks: [{
+				id: "2A5AAF9ACD81BDE1"
+				item: "aquamirae:shell_horn"
+				title: "Obtén una &2Bocina de Caracola&r"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F5B65A4DC665C6C"]
+			id: "784706A77F7FC7E3"
+			rewards: [{
+				id: "24F1FBD3773006C7"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "El paladín creía que los &6Piratas&r podrían tener información privilegiada sobre la creciente amenaza de los no muertos, y planeaba interrogar a un &6Capitán Pirata&r. \\n\\nSu siguiente destino antes de morir era buscar un &bNaufragio en aguas heladas&r."
+			tasks: [{
+				id: "0B6AB170C940492E"
+				item: "otherworld:kaelen_journal"
+				match_nbt: false
+				title: "Lee el &2Diario&r del Paladín"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["784706A77F7FC7E3"]
+			description: [
+				"El &4Ojo de los Piratas&r podría ser útil para localizarlos. "
+				"{image:otherworld:textures/eye_of_pirates.png width:200 height:100 align:center}"
+			]
+			id: "42B1BFC324919137"
+			subtitle: "Según el diario del paladín, una &6tripulación pirata&r debería rondar cerca de su naufragio \"en aguas heladas\" — probablemente un &bOcéano Helado Profundo&r."
+			tasks: [{
+				icon: "aquamirae:pirate_pouch"
+				id: "0F309A7476CB4E02"
+				structure: "aquamirae:ship"
+				title: "Encuentra el &6Barco Pirata Varado&r"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AD7DB0F192E3A55"]
+			id: "04343D2A9C34BC47"
+			subtitle: "Cornelia sospechaba que su cliente, un &bLiche&r, escondía algo valioso.\\n\\nMencionó buscar al &8Viejo Campeón&r que el Liche visitaba con frecuencia, o enfrentarse al &bLiche&r directamente en su Torre.\\n\\n&oNota de juego: El &bLiche&r&o es un combate aéreo, recomendado solo para usuarios de magia o ataque a distancia. \\nEl Viejo Campeón y la Sombra Enloquecida son más difíciles, pero pueden enfrentarlos personajes cuerpo a cuerpo."
+			tasks: [{
+				id: "7B54423D988999B3"
+				item: "otherworld:cornelia_log"
+				match_nbt: false
+				title: "Lee el &6Diario de Cornelia"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1BBA56556DCE70EE"]
+			id: "583549022CAC7998"
+			subtitle: "La &3Brújula Errante&r apunta a este lugar de reposo subterráneo, donde descansa el &4Rey Muerto&r."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: { }
+				}
+				id: "4065D07AEA28788D"
+				structure: "irons_spellbooks:catacombs"
+				title: "Encuentra las &2Catacumbas&r."
+				type: "structure"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+	]
+	title: " &3Fantasmas de Épocas Pasadas&r &f|&r &7(Nv. 2+)&r"
+}

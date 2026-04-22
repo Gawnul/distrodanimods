@@ -1,0 +1,663 @@
+{
+	autofocus_id: "4AEBF52B558D5D23"
+	default_hide_dependency_lines: true
+	default_quest_shape: "diamond"
+	filename: "forgotten_realms"
+	group: "25422B67437A4FD8"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "fantasydice:20_sided_emerald_die"
+	id: "1A22AE1A68537AB2"
+	images: [
+		{
+			height: 6.0d
+			image: "otherworld:textures/otherworld.png"
+			order: 5
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.0d
+			y: 16.5d
+		}
+		{
+			height: 19.0d
+			image: "otherworld:textures/ftbquestsmain.png"
+			rotation: 0.0d
+			width: 14.25d
+			x: 12.02d
+			y: 6.2d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4AEBF52B558D5D23"]
+			description: [
+				"Hace algún tiempo, un &dvacío&r sellado de este mundo, olvidado en una antigua fortaleza abandonada, fue abierto por un Jugador que buscaba conquista. Este vacío era conocido como &dEl Fin&r."
+				""
+				"En ese mundo fue abatida una &5gran bestia&r, y por un tiempo el mundo estuvo libre, pero este acto se convirtió sin saberlo en un catalizador de un caos inimaginable. Al dejar el portal abierto, también se debilitaron las barreras entre todos los demás reinos. "
+				""
+				"Poderes ancestrales largo tiempo dormidos, antes contenidos por grietas dimensionales, sintieron esta agitación y comenzaron a despertar. "
+				""
+				"Tales poderes eran tan incomprensiblemente poderosos que su movimiento más sutil enviaba ondas de caos por toda nuestra realidad. Como placas tectónicas, estas fuerzas se desplazaron y retumbaron, terraformando nuestro reino a un estado sin precedentes. "
+				""
+				"Criaturas del mito y de la pesadilla, seres de magia pura y furia elemental, encontraron caminos que se abrían hacia este mundo, y ahora causan estragos. "
+				""
+				"El Reino aguarda ahora a su héroe o héroes, aquellos con el valor suficiente para adentrarse en lo desconocido, y que posean la fortaleza para superar cualquier desafío que se encuentre en su interior. "
+				""
+				"Ya no es la tierra que conocías. Es el &aOtherworld&r, moldeado a partir de los ecos de una calamidad mágica. "
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "196EFEB67FA2C502"
+			shape: "hexagon"
+			subtitle: "Un relato de la creación"
+			tasks: [{
+				id: "31061F07BAAD9C4C"
+				title: "¡Hecho!"
+				type: "checkmark"
+			}]
+			title: "Ecos de la Grieta"
+			x: 12.0d
+			y: 11.08d
+		}
+		{
+			dependencies: ["196EFEB67FA2C502"]
+			description: [
+				"Abre la pestaña del &6Libro&r en tu inventario para acceder a las &6Aptitudes&r. "
+				""
+				"Las &6Aptitudes&r, como Fuerza, Magia y Destreza, pueden adquirirse a cambio de &2Experiencia (XP)&r."
+				""
+				"Para subir de nivel, haz clic en una &6Aptitud&r y luego en el &2&l+&r para gastar un punto."
+				""
+				"Todos los personajes comienzan en &aNivel de Personaje 2&r. Cada 4 puntos gastados en &6Aptitudes&r aumenta tu &aNivel de Personaje&r en &a1&r. "
+				""
+				"______"
+				""
+				""
+				"A partir del &aNivel 5&r, necesitarás avanzar en la campaña para seguir subiendo de nivel. El Capítulo 1 te otorgará hasta el &aNivel 8&r, el Capítulo 2 el &aNivel 11&r, y así sucesivamente."
+				""
+				"Puedes gastar un &4máximo&r de &680 puntos de Aptitud&r, lo que resulta en un &aNivel de Personaje Máximo&r de &a20&r."
+				""
+				"Si tu Raza o Clase proporciona un bono a una &6Aptitud&r, puede superarse el máximo de &620&r en la misma cantidad. "
+				""
+				"Los bonos innatos no cuentan hacia el máximo de 80 puntos totales."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:experience_bottle"
+			id: "5C5561D9E73DCFDB"
+			rewards: [{
+				id: "3081BEAA944D3E0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			subtitle: "Mejora tu Personaje: Estadísticas y Niveles"
+			tasks: [{
+				id: "3CA107F9A8D4E85F"
+				title: "¡Entendido!"
+				type: "checkmark"
+			}]
+			title: "Subir de Nivel"
+			x: 13.525d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: [
+				"Algunos objetos encontrados en tus viajes tendrán &drarezas&r. Los objetos de &dmayor rareza&r caen de &4enemigos de mayor nivel&r. "
+				""
+				"El &acolor del nivel del mob&r corresponde a la &dmayor rareza de equipo&r que puede dejar caer."
+				""
+				"Nivel del Mob &8|&r &dRareza del Equipo&r"
+				"Nivel 25+ &8|&r &6mítico&r-&dantiquo&r"
+				"Nivel 20+ &8|&r &5épico-&r&6mítico&r"
+				"Nivel 15+ &8|&r &9raro&r-&5épico&r"
+				"Nivel 10+ &8|&r &2poco común&r-&9raro&r"
+				"Nivel 5+  &8|&r &7común&r-&2poco común&r"
+				"Nivel 1+  &8|&r &7común"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69D50E802B187571"
+			rewards: [{
+				id: "3021A97FEF241471"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "¡Armamento digno de un héroe!"
+			tasks: [{
+				advancement: "apotheosis:affix/random"
+				criterion: ""
+				id: "5353D0B053FA95B6"
+				title: "Obtén tu primer &dObjeto con Afijos&r"
+				type: "advancement"
+			}]
+			title: "OPCIONAL: Equipo Único"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["196EFEB67FA2C502"]
+			description: [
+				"Las razas, subrazas, clases y subclases modifican sutilmente el juego de maneras distintas. "
+				""
+				"Todas tienen diferentes bonificaciones de estadísticas, y algunas tienen &dTrucos&r especiales, acceso a &8Visión Oscura&r u otras habilidades únicas."
+				""
+				"Puedes encontrar toda la información de tu personaje, incluidas las teclas de acceso rápido para tus habilidades innatas, pulsando &bO&r."
+			]
+			hide_until_deps_complete: true
+			icon: "otherworldorigins:portrait/brass"
+			id: "0C3AD51EB1EC9140"
+			shape: "diamond"
+			subtitle: "Trasfondos de personaje y su impacto."
+			tasks: [{
+				id: "15EE726ECDCD5644"
+				title: "¡Entendido!"
+				type: "checkmark"
+			}]
+			title: "Razas y Clases"
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["611C362ED54CD0EA"]
+			description: [
+				""
+				""
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:map"
+			id: "3451E9AFF56CA956"
+			rewards: [
+				{
+					count: 2
+					id: "35789112B3ECA791"
+					item: "otherworld:town_portal_scroll"
+					type: "item"
+				}
+				{
+					id: "39D622A9F7FEF990"
+					item: "legendarysurvivaloverhaul:heart_container"
+					type: "item"
+				}
+				{
+					id: "502A06FAE5BB6AF9"
+					item: {
+						Count: 1
+						id: "valoria:codex"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tu viaje comienza.\\n\\nCarga y usa el Corazón de Cristal manteniendo pulsado el Clic Derecho.\\n\\nAbre la pestaña izquierda de este diario de misiones para comenzar el Capítulo 1, 'Fantasmas de Épocas Pasadas'."
+			tasks: [{
+				id: "49E025839A772B4C"
+				type: "checkmark"
+			}]
+			title: "Fin del Tutorial"
+			x: 12.0d
+			y: 0.98d
+		}
+		{
+			dependencies: ["196EFEB67FA2C502"]
+			description: [
+				"Cada &a4 Niveles de Personaje&r obtenidos de &6Aptitudes&r, tendrás la oportunidad de seleccionar una &7Proeza.&r "
+				""
+				"Las &7Proezas&r son rasgos pasivos especiales que pueden mejorar las capacidades de tu personaje de maneras únicas. "
+				""
+				"Puedes tener un máximo de &75 Proezas&r. "
+				""
+				"Los Humanos Variantes comienzan con una proeza extra, y pueden tener hasta &76&r. "
+			]
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "valoria:leather_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "038D80C8CF43F75A"
+			rewards: [{
+				id: "4116D6E7867D3292"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Habilidades de personaje adicionales obtenidas durante tu viaje"
+			tasks: [{
+				id: "20647CF3777E90D3"
+				title: "¡De acuerdo!"
+				type: "checkmark"
+			}]
+			title: "Proezas"
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"038D80C8CF43F75A"
+				"0C3AD51EB1EC9140"
+				"5C5561D9E73DCFDB"
+			]
+			description: [
+				"Solo puedes elegir una Raza y Clase diferente una vez, usando un &bOrbe de Origen&r. "
+				""
+				"Cambiar de Raza no afectará tu &aNivel de Personaje&r, y te permitirá seleccionar diferentes &7Proezas&r si tenías el nivel suficiente para haberlas obtenido."
+				""
+				"-------"
+				""
+				"Para reiniciar tus &6Aptitudes&r y &aNivel de Personaje&r, puedes hacer clic en el botón &l[Reespecciar]&r en la página de &6Aptitudes&r. "
+				""
+				"Hacerlo cuesta &210 Niveles de Experiencia&r, pero reembolsa la mitad de la Experiencia gastada en Aptitudes. "
+			]
+			hide_until_deps_complete: true
+			icon: "origins:orb_of_origin"
+			id: "164E9D8AC896E238"
+			rewards: [{
+				id: "1D79C61520AA6488"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "Elige una raza o clase diferente, o reinicia estadísticas"
+			tasks: [{
+				id: "45AE380D91F75438"
+				title: "¡Bueno saberlo!"
+				type: "checkmark"
+			}]
+			title: "Cambiar de Opinión"
+			x: 12.0d
+			y: 7.8d
+		}
+		{
+			icon: "fantasydice:20_sided_emerald_die"
+			id: "4AEBF52B558D5D23"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Puedes volver aquí en cualquier momento.\\n\\nHaz clic en el &6Libro de Misiones&r en la esquina superior izquierda de tu Inventario. \\n\\nAbre esta misión y haz clic en el &8Checkmark&r para continuar "
+			tasks: [{
+				id: "02E7581AA992E75B"
+				title: "¡Entendido!"
+				type: "checkmark"
+			}]
+			title: "Bienvenido al &2Otherworld"
+			x: 12.0d
+			y: 12.85d
+		}
+		{
+			dependencies: ["164E9D8AC896E238"]
+			description: [
+				"Pulsa &bO&r para leer tu raza, clase, proezas y trucos. Aquí puedes ver otras teclas de acceso rápido específicas de tu personaje."
+				""
+				"Pulsa &bM&r para abrir el Mapa del Mundo. "
+				""
+				"Pulsa &bU&r para ver y editar Puntos de Ruta, incluidas muertes recientes."
+				""
+				"&bClic Derecho&r sobre un objeto para recogerlo. O agáchate (&bMayús Izquierda&r) para recoger todos los objetos cercanos."
+				""
+				"Si usas Magia, pulsa &bR&r para abrir la Rueda de Hechizos. En caso contrario, &bR&r se reserva generalmente para las habilidades de arma."
+			]
+			hide_until_deps_complete: true
+			icon: "chipped:square_light_gray_stained_glass_pane"
+			id: "4D3490E4D7C8CB8F"
+			rewards: [{
+				count: 2
+				id: "4C2F3ED19772D51A"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "¡Léeme!"
+			tasks: [{
+				id: "0FE4FBA3E25135BE"
+				title: "¡Entendido!"
+				type: "checkmark"
+			}]
+			title: "Teclas de Acceso Rápido Básicas"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"088E3E16F3C9BA0E"
+				"36AD0537D6387B9E"
+				"79EA78D15B5DFDC0"
+			]
+			description: [
+				"Cuando encuentres una mazmorra por primera vez, puedes regenerarla &buna vez automáticamente&r usando el &6Medallón del Buscador de Caminos&r"
+				""
+				"El &6Medallón del Buscador de Caminos&r debe estar &aactivo&r y sostenido o equipado &emientras entras en la estructura&r para funcionar.  "
+				""
+				"Las estructuras &cno&r se regenerarán automáticamente si hay jugadores dentro o han interactuado recientemente. "
+				""
+				"___________________________"
+				""
+				"Para regenerar una estructura incluso si ya la has regenerado antes, puedes usar un &bOrbe de Desafío&r. "
+				""
+				"Los &bOrbes de Desafío&r &ase&r consumen al usarse. "
+				""
+				"Ninguna estructura puede regenerarse si algún chunk dentro de ella ha sido reclamado usando el mapa FTB Chunks (¡esquina superior izquierda de tu inventario!). "
+				""
+				"___________________________"
+				""
+				"&cNo todas las mazmorras pueden regenerarse&r, ¡pero las más importantes sí! "
+			]
+			hide_until_deps_complete: true
+			icon: "otherworld:wayfinders_medallion"
+			id: "611C362ED54CD0EA"
+			rewards: [{
+				id: "5A995F2EDFB6714B"
+				item: "otherworld:challenge_orb"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "¡Vuelve a los Desafíos ya Conquistados!"
+			tasks: [{
+				id: "35EF7ACB3D65C4CC"
+				item: "otherworld:wayfinders_medallion"
+				title: "Fabrica un &cMedallón del Buscador de Caminos"
+				type: "item"
+			}]
+			title: "Mazmorras con Instancias"
+			x: 12.0d
+			y: 2.47d
+		}
+		{
+			dependencies: ["643CDE5D0AA55C2A"]
+			description: [
+				"Todas las armas y armaduras pueden ser &6refundidas&r, usando &9materiales de rareza&r y &dPolvo de Gema&r."
+				""
+				"Para obtener &9materiales de rareza&r, usa una &5Mesa de Salvamento&r para descomponer equipo con afijos. "
+				""
+				"Para obtener &dPolvo de Gema&r, suelta un bloque de yunque sobre una &dgema&r tirada (¡o usa la &5Mesa de Salvamento&r!)"
+				""
+				"Cualquiera puede usar la &9Mesa de Refundición Simple&r, que puede refundir hasta &9raro&r. "
+				""
+				""
+				"______________________________"
+				""
+				""
+				""
+				"El &dTallado de Gemas&r requiere la &dMesa de Tallado de Gemas&r, y refundir hasta &5Épico&r o &6Mítico&r requiere la &6Mesa de Refundición&r mejorada. "
+				""
+				"Solo pueden usarlas quienes tienen &8Herencia del Inframundo&r, &a&lo&r han aprendido la habilidad de &bHerrero Legendario&r de la Aptitud de Construcción. "
+				""
+				"La &dRefundición Antigua&r solo pueden realizarla quienes tienen tanto &8Herencia del Inframundo&r &a&lcomo&r la habilidad de &bHerrero Legendario&r."
+			]
+			id: "685E5C005ECEF8F6"
+			rewards: [{
+				id: "716964FC9CA63F06"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			subtitle: "¡Mejora tu equipo existente!"
+			tasks: [
+				{
+					id: "3981E78AF5CBC9B1"
+					item: "apotheosis:simple_reforging_table"
+					title: "Fabrica una &9Mesa de Refundición Simple&r"
+					type: "item"
+				}
+				{
+					id: "2D9FD307C8FE7747"
+					item: "apotheosis:salvaging_table"
+					title: "Fabrica una &5Mesa de Salvamento&r"
+					type: "item"
+				}
+			]
+			title: "OPCIONAL: &9Refundición&r de Equipo Único"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: ["Las mochilas son una forma conveniente de llevar todo lo que encuentres por el camino. ¡No la pierdas!"]
+			hide_until_deps_complete: true
+			id: "4BFBBE1C7A6950A6"
+			rewards: [{
+				count: 2
+				id: "6FDA1693726F6F44"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "¡Lleva más cosas!"
+			tasks: [{
+				id: "1DBB696BE352B965"
+				item: "sophisticatedbackpacks:backpack"
+				title: "Fabrica una &6Mochila&r"
+				type: "item"
+			}]
+			title: "OPCIONAL: &eMochilas&r!"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: [
+				"La &aRegeneración Natural de Salud&r está desactivada; sin embargo, el &2Hambre&r se agota &osignificativamente más despacio&r. En lugar de estar relacionada con la curación, el hambre (al igual que la sed) es una necesidad menor a considerar."
+				""
+				"Para regenerar salud puedes usar &6vendajes&r, &dpociones&r, &cvida robada&r o &emagias curativas&r, o simplemente &7dormir en una cama&r."
+				""
+				"También puedes aumentar permanentemente tu salud máxima hasta 20 corazones extra con &4Recipientes de Corazón&r. "
+				""
+				"Los &4Fragmentos&r para fabricar Recipientes de Corazón se encuentran raramente. También se otorgarán Recipientes de Corazón como recompensas de misiones. "
+			]
+			hide_until_deps_complete: true
+			icon: "legendarysurvivaloverhaul:heart_container"
+			id: "088E3E16F3C9BA0E"
+			rewards: [
+				{
+					count: 16
+					id: "197D99C56A122352"
+					item: "legendarysurvivaloverhaul:bandage"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7098CC279158AE14"
+					item: "valoria:healing_vial"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67F72CAA8840ABC5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Fabrica una &fCama&r"
+				type: "item"
+			}]
+			title: "&4Salud&r y &aRegeneración&r"
+			x: 12.0d
+			y: 3.98d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: [
+				"La &bSed&r es una necesidad que deberás mantener de vez en cuando; se agota ligeramente más rápido que el hambre. "
+				""
+				"Puedes llenar una cantimplora con agua de cualquier lugar haciendo clic derecho en el agua mientras sostienes una cantimplora. "
+				""
+				"Algunas fuentes de agua pueden estar &3Sucias&r. Beber agua &3sucia&r restaurará menos sed e incluso podría ponerte &2enfermo&r. "
+				""
+				"Para &bpurificar&r el agua, puedes &ccalentar&r tu Cantimplora en un Horno."
+				""
+				"También hay varias fuentes naturales de agua purificada, como frutas, plantas acuáticas y varios zumos."
+			]
+			hide_until_deps_complete: true
+			icon: "legendarysurvivaloverhaul:canteen"
+			id: "36AD0537D6387B9E"
+			rewards: [{
+				id: "0399F8D6163E2621"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63A1C67B23CD7531"
+				item: "legendarysurvivaloverhaul:canteen"
+				title: "Fabrica una &9Cantimplora&r"
+				type: "item"
+			}]
+			title: "&bSed&r"
+			x: 10.51d
+			y: 4.52d
+		}
+		{
+			dependencies: ["5717B7A12AE12ABD"]
+			description: [
+				"¡Las mejoras pueden insertarse en tu mochila para proporcionar herramientas únicas y útiles! "
+				""
+				"La &aMejora de Recogida&r mueve automáticamente los objetos que recoges a la mochila."
+				""
+				"Para ver todas las mejoras disponibles, busca \"&bmejora de mochila&r\" en &lJEI&r (la búsqueda de objetos a la derecha de tu inventario)"
+			]
+			id: "150FFB64FD9603BB"
+			subtitle: "¡Lleva las cosas de manera conveniente!"
+			tasks: [{
+				id: "2115BECD4AF1CDD5"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				title: "Fabrica la &5Mejora de Recogida&r"
+				type: "item"
+			}]
+			title: "OPCIONAL: &aMejoras de Mochila&r"
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69D50E802B187571"]
+			description: [
+				"Las &dGemas&r pueden engastarse en cualquier equipamiento que tenga &7Casquillos&r, usando una &6Mesa de Herrería&r"
+				""
+				"Los &7Casquillos&r siempre se encuentran en equipamiento &5Épico&r o superior, aunque a veces pueden encontrarse en equipo &9Raro&r o incluso &2Poco Común&r."
+			]
+			hide_until_deps_complete: true
+			id: "643CDE5D0AA55C2A"
+			rewards: [{
+				id: "5ADB4DF38CFC090C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "¡Cristales poderosos!"
+			tasks: [
+				{
+					id: "4A8808BB3558AD36"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: { }
+					}
+					match_nbt: false
+					title: "Obtén cualquier &dGema&r"
+					type: "item"
+				}
+				{
+					id: "3EC12403137EEDEE"
+					item: "minecraft:smithing_table"
+					title: "Fabrica una &6Mesa de Herrería&r"
+					type: "item"
+				}
+			]
+			title: "OPCIONAL: &dGemas&r"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BFBBE1C7A6950A6"]
+			description: [
+				"¡Las mochilas pueden mejorarse para obtener más espacios de inventario!"
+				""
+				"Además de más espacios de inventario, algunas mejoras también proporcionarán &aEspacios de Mejora&r adicionales."
+			]
+			hide_until_deps_complete: true
+			id: "5717B7A12AE12ABD"
+			rewards: [{
+				id: "6323824224245F2E"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "¡Lleva incluso más cosas!"
+			tasks: [{
+				id: "42A451FA58ECE348"
+				item: "sophisticatedbackpacks:copper_backpack"
+				title: "Mejora una mochila al nivel &6Cobre&r"
+				type: "item"
+			}]
+			title: "OPCIONAL: &6Mochilas más Grandes&r"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: [
+				"Factores ambientales para la temperatura:"
+				"- &7Clima&r"
+				"- &bAltitud&r"
+				"- &9Humedad&r"
+				"- &eSol&r y &8Sombra&r"
+				"- &2Bioma&r"
+				"- &dEstaciones&r"
+				""
+				"Puedes contrarrestar los efectos de temperatura con equipo:"
+				"&c+x Temperatura&r para combatir el frío."
+				"&b-x Temperatura&r para combatir el calor."
+				""
+				"Algunos &2Alimentos&r también &cAumentarán&r o &bDisminuirán&r tu Temperatura Corporal."
+				""
+				"Fabrica una &bCaja de Hielo&r o un &cCalefactor&r para ajustar la temperatura en un área. Funcionan mucho mejor &6en interiores&r."
+				""
+				"__________________________"
+				""
+				"También puedes encontrar &cHelechos Solares&r o &bHelechos de Hielo&r por el mundo."
+				""
+				"Cuando están completamente crecidos, pueden cosecharse para obtener sus &2hojas&r, que tienen propiedades especiales. "
+				""
+				"Las &2Hojas de Helecho&r pueden combinarse con &7Cuerda&r y luego tejerse en armadura en una &6Mesa de Costura&r."
+				""
+				"También pueden elaborarse en &dPociones Resistentes a la Temperatura&r."
+				""
+				"Estos helechos también pueden cultivarse. Con suerte, esto podría darte una variante &6Helecho Dorado&r, que puede usarse para elaborar pociones de &dinmunidad total a la temperatura&r. "
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:campfire"
+			id: "79EA78D15B5DFDC0"
+			rewards: [
+				{
+					id: "2CA08FFA6CF6CBAF"
+					item: "minecraft:soul_torch"
+					type: "item"
+				}
+				{
+					id: "69BEA26C29E4080A"
+					item: "legendarysurvivaloverhaul:sewing_table"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "370BC92ECBAB0EAA"
+				item: "minecraft:torch"
+				title: "Fabrica una &cAntorcha&r"
+				type: "item"
+			}]
+			title: "&cCalor&r y &bFrío&r"
+			x: 13.525d
+			y: 4.52d
+		}
+	]
+	title: " &aIntroducción"
+}
