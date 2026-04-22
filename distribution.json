@@ -7745,17 +7745,6 @@
           }
         },
         {
-          "id": "_all_rews.json",
-          "name": "_all_rews.json",
-          "type": "File",
-          "artifact": {
-            "size": 431,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/files/config/bountiful/bounty_pools/_all_rews.json",
-            "MD5": "c69bd9b9ef80d144e0b30e0eded77276",
-            "path": "config/bountiful/bounty_pools/_all_rews.json"
-          }
-        },
-        {
           "id": "brewinandchewin-client.toml",
           "name": "brewinandchewin-client.toml",
           "type": "File",
