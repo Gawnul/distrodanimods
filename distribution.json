@@ -37162,17 +37162,6 @@
           }
         },
         {
-          "id": ".gitignore",
-          "name": ".gitignore",
-          "type": "File",
-          "artifact": {
-            "size": 5,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.7.1%20+%20EuphoriaPatches_1.8.6/.gitignore",
-            "MD5": "ce15bb98ad750635e87174959a5d6b8a",
-            "path": "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.6/.gitignore"
-          }
-        },
-        {
           "id": "addedMods.md",
           "name": "addedMods.md",
           "type": "File",
