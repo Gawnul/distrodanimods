@@ -1203,26 +1203,6 @@
           }
         },
         {
-          "id": "com.connectivity:connectivity:1.20.1-7.6@jar",
-          "name": "Connectivity Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 120598,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/forgemods/required/connectivity-1.20.1-7.6.jar",
-            "MD5": "59797700faa0a7b32e0db84b333805a3"
-          }
-        },
-        {
-          "id": "dev.su5ed.sinytra:connectorextras:1.11.2+1.20.1@jar",
-          "name": "Connector Extras",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 182464,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/forgemods/required/ConnectorExtras-1.11.2+1.20.1.jar",
-            "MD5": "6a79978270b2aa5ddc42c2be4f4d73a7"
-          }
-        },
-        {
           "id": "com.blamejared:controlling:12.0.2@jar",
           "name": "Controlling",
           "type": "ForgeMod",
