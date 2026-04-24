@@ -1203,6 +1203,16 @@
           }
         },
         {
+          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
+          "name": "Continuity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1016666,
+            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/forgemods/required/continuity-3.0.0+1.20.1.forge.jar",
+            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
+          }
+        },
+        {
           "id": "com.blamejared:controlling:12.0.2@jar",
           "name": "Controlling",
           "type": "ForgeMod",
@@ -4370,6 +4380,26 @@
             "size": 1006518,
             "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/forgemods/required/Zeta-1.0-31.jar",
             "MD5": "98b72e20dacbdb4da4bd187f56ed4012"
+          }
+        },
+        {
+          "id": "generated.library:Connector:1.0.0-beta.46+1.20.1@jar",
+          "name": "Connector",
+          "type": "Library",
+          "artifact": {
+            "size": 5043384,
+            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/libraries/Connector-1.0.0-beta.46+1.20.1.jar",
+            "MD5": "3c07e0a25c1921da7586c0290c72ba86"
+          }
+        },
+        {
+          "id": "generated.library:fabric:api-0.92.6+1.11.14+1.20.1@jar",
+          "name": "fabric",
+          "type": "Library",
+          "artifact": {
+            "size": 3065813,
+            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/libraries/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+            "MD5": "2859d401e221e94acf0b48c5f7efa50b"
           }
         },
         {
@@ -30792,39 +30822,6 @@
             "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/files/config/zeta-common.toml",
             "MD5": "38b8f978628d549cee47816b1cf5f409",
             "path": "config/zeta-common.toml"
-          }
-        },
-        {
-          "id": "Connector-1.0.0-beta.46+1.20.1.jar",
-          "name": "Connector-1.0.0-beta.46+1.20.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5043384,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/files/mods/Connector-1.0.0-beta.46+1.20.1.jar",
-            "MD5": "3c07e0a25c1921da7586c0290c72ba86",
-            "path": "mods/Connector-1.0.0-beta.46+1.20.1.jar"
-          }
-        },
-        {
-          "id": "continuity-3.0.0+1.20.1.forge.jar",
-          "name": "continuity-3.0.0+1.20.1.forge.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1016666,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/files/mods/continuity-3.0.0+1.20.1.forge.jar",
-            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e",
-            "path": "mods/continuity-3.0.0+1.20.1.forge.jar"
-          }
-        },
-        {
-          "id": "fabric-api-0.92.6+1.11.14+1.20.1.jar",
-          "name": "fabric-api-0.92.6+1.11.14+1.20.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3065813,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/files/mods/fabric-api-0.92.6+1.11.14+1.20.1.jar",
-            "MD5": "2859d401e221e94acf0b48c5f7efa50b",
-            "path": "mods/fabric-api-0.92.6+1.11.14+1.20.1.jar"
           }
         },
         {
