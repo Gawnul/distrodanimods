@@ -4383,22 +4383,22 @@
           }
         },
         {
-          "id": "generated.library:Connector:1.0.0-beta.46+1.20.1@jar",
-          "name": "Connector",
+          "id": "generated.library:00_Connector:1.0.0-beta.46+1.20.1@jar",
+          "name": "00_Connector",
           "type": "Library",
           "artifact": {
             "size": 5043384,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/libraries/Connector-1.0.0-beta.46+1.20.1.jar",
+            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/libraries/00_Connector-1.0.0-beta.46+1.20.1.jar",
             "MD5": "3c07e0a25c1921da7586c0290c72ba86"
           }
         },
         {
-          "id": "generated.library:fabric:api-0.92.6+1.11.14+1.20.1@jar",
-          "name": "fabric",
+          "id": "generated.library:01_fabric:api-0.92.6+1.11.14+1.20.1@jar",
+          "name": "01_fabric",
           "type": "Library",
           "artifact": {
             "size": 3065813,
-            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/libraries/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+            "url": "https://gawnul.github.io/distrodanimods/servers/Otherworld-1.20.1/libraries/01_fabric-api-0.92.6+1.11.14+1.20.1.jar",
             "MD5": "2859d401e221e94acf0b48c5f7efa50b"
           }
         },
